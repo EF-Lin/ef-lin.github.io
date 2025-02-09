@@ -1,0 +1,68 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Python - Category - EF&#39;s Cave</title>
+        <link>http://localhost:1313/categories/python/</link>
+        <description>Python - Category - EF&#39;s Cave</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/python/" rel="self" type="application/rss+xml" /><item>
+    <title>裝飾器(Decorator)</title>
+    <link>http://localhost:1313/posts/python-note/2024-06-13/</link>
+    <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/python-note/2024-06-13/</guid>
+    <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
+</item>
+<item>
+    <title>python基礎語法</title>
+    <link>http://localhost:1313/posts/python-note/2024-06-07/</link>
+    <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/python-note/2024-06-07/</guid>
+    <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
+</item>
+<item>
+    <title>全域變數與區域變數</title>
+    <link>http://localhost:1313/posts/python-note/2024-06-07-2/</link>
+    <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/python-note/2024-06-07-2/</guid>
+    <description><![CDATA[<h2 id="全域變數global">全域變數(Global)</h2>
+<p>一般情況下，全域變數(Global)可被function、class獲取，但不可修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#這是一個全域變數</span>
+</span></span><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#GA += 10</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#UnboundLocalError</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用<code>global</code>後，全域變數才可被修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>假使<code>global</code>的全域變數對象不存在，則會建立一新的全域變數。</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>全域變數與區域變數 - EF&#39;s Cave</title><meta name="Description" content="This is my cool site"><meta property="og:url" content="http://localhost:1313/posts/python-note/2024-06-07-2/">
+  <meta property="og:site_name" content="EF&#39;s Cave">
+  <meta property="og:title" content="全域變數與區域變數">
+  <meta property="og:description" content="全域變數(Global) 一般情況下，全域變數(Global)可被function、class獲取，但不可修改。
+1 2 3 4 5 6 7 #這是一個全域變數 GV = 10 def function(): print(GV) #GA &#43;= 10 #UnboundLocalError 使用global後，全域變數才可被修改。
+1 2 3 4 GV = 10 def function(): GV &#43;= 10 假使global的全域變數對象不存在，則會建立一新的全域變數。">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-07T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="語法">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="全域變數與區域變數">
+  <meta name="twitter:description" content="全域變數(Global) 一般情況下，全域變數(Global)可被function、class獲取，但不可修改。
+1 2 3 4 5 6 7 #這是一個全域變數 GV = 10 def function(): print(GV) #GA &#43;= 10 #UnboundLocalError 使用global後，全域變數才可被修改。
+1 2 3 4 GV = 10 def function(): GV &#43;= 10 假使global的全域變數對象不存在，則會建立一新的全域變數。">
+<meta name="application-name" content="EF&#39;s Cave">
+<meta name="apple-mobile-web-app-title" content="EF&#39;s Cave"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/python-note/2024-06-07-2/" /><link rel="prev" href="http://localhost:1313/posts/subject/2024-03-31/" /><link rel="next" href="http://localhost:1313/posts/python-note/2024-06-07/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "全域變數與區域變數",
+        "inLanguage": "zh-tw",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/python-note\/2024-06-07-2\/"
+        },"genre": "posts","keywords": "python, 語法","wordcount":  275 ,
+        "url": "http:\/\/localhost:1313\/posts\/python-note\/2024-06-07-2\/","datePublished": "2024-06-07T00:00:00+00:00","dateModified": "2024-06-07T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "EFLin"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="EF&#39;s Cave"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/favicon.svg"
+        data-srcset="/favicon.svg, /favicon.svg 1.5x, /favicon.svg 2x"
+        data-sizes="auto"
+        alt="/favicon.svg"
+        title="/favicon.svg" /><span class="header-title-pre">  </span>EF&#39;s Cave</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="所有文章"> 所有文章 </a><a class="menu-item" href="/tags/" title="標籤"> 標籤 </a><a class="menu-item" href="/categories/" title="分類"> 分類 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="EF&#39;s Cave"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/favicon.svg"
+        data-srcset="/favicon.svg, /favicon.svg 1.5x, /favicon.svg 2x"
+        data-sizes="auto"
+        alt="/favicon.svg"
+        title="/favicon.svg" /><span class="header-title-pre">  </span>EF&#39;s Cave</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="所有文章">所有文章</a><a class="menu-item" href="/tags/" title="標籤">標籤</a><a class="menu-item" href="/categories/" title="分類">分類</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">全域變數與區域變數</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Python</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-07">2024-06-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;275 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#全域變數global">全域變數(Global)</a></li>
+    <li><a href="#區域變數nonlocal">區域變數(Nonlocal)</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="全域變數global">全域變數(Global)</h2>
+<p>一般情況下，全域變數(Global)可被function、class獲取，但不可修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#這是一個全域變數</span>
+</span></span><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#GA += 10</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#UnboundLocalError</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用<code>global</code>後，全域變數才可被修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>假使<code>global</code>的全域變數對象不存在，則會建立一新的全域變數。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="k">global</span> <span class="n">GA</span>
+</span></span><span class="line"><span class="cl">	<span class="n">GA</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="區域變數nonlocal">區域變數(Nonlocal)</h2>
+<p>區域變數(Nonlocal)與全域變數情況相同，可被下一層(或下幾層)獲取，但不可修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">print</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">#g += 10</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">#UnboundLocalError</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">	<span class="n">fun2</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用<code>nonlocal</code>後，區域變數才可被修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">	<span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">		<span class="k">nonlocal</span> <span class="n">g</span>
+</span></span><span class="line"><span class="cl">		<span class="n">g</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">	<span class="n">fun2</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-06-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/%E8%AA%9E%E6%B3%95/">語法</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/subject/2024-03-31/" class="prev" rel="prev" title="亞美尼亞與亞賽拜然邊境爭議"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>亞美尼亞與亞賽拜然邊境爭議</a>
+            <a href="/posts/python-note/2024-06-07/" class="next" rel="next" title="python基礎語法">python基礎語法<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「戰爭即和平，無知即力量，自由即奴役」</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">EFLin</a></span>&nbsp;|&nbsp;<span class="license"><a rel='license external nofollow noopener noreffer' href='https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant' target='_blank'>CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

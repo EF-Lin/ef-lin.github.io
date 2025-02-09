@@ -3,11 +3,19 @@
         <title>Categories - Category - EF&#39;s Cave</title>
         <link>http://localhost:1313/categories/</link>
         <description>Categories - Category - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sun, 31 Mar 2024 21:11:31 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Python</title>
+    <link>http://localhost:1313/categories/python/</link>
+    <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/categories/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>專題</title>
     <link>http://localhost:1313/categories/%E5%B0%88%E9%A1%8C/</link>
     <pubDate>Sun, 31 Mar 2024 21:11:31 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>EFLin</author>
     <guid>http://localhost:1313/categories/%E5%B0%88%E9%A1%8C/</guid>
     <description><![CDATA[]]></description>
 </item>
@@ -15,7 +23,7 @@
     <title>隨筆雜談</title>
     <link>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86%E9%9B%9C%E8%AB%87/</link>
     <pubDate>Sat, 22 Apr 2023 21:11:09 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>EFLin</author>
     <guid>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86%E9%9B%9C%E8%AB%87/</guid>
     <description><![CDATA[]]></description>
 </item>
