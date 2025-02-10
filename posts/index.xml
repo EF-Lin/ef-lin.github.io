@@ -9,7 +9,8 @@
     <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/python-note/2024-06-13/</guid>
-    <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
+    <description><![CDATA[<p>裝飾器為python的語法糖(syntax candy)，旨在簡化函式之間的相互呼叫，能透過簡單的<code>@</code>就呼叫出事先編寫好的函式。</p>
+<p>使用順序上則是遵循遞迴的(recursive)構造，會先將函式丟入離最近的裝飾器中，再將整體丟入更上層的裝飾器中。</p>]]></description>
 </item>
 <item>
     <title>python基礎語法</title>
@@ -67,7 +68,7 @@
 <item>
     <title>亞美尼亞與亞賽拜然邊境爭議</title>
     <link>http://localhost:1313/posts/subject/2024-03-31/</link>
-    <pubDate>Sun, 31 Mar 2024 21:11:31 &#43;0800</pubDate>
+    <pubDate>Sun, 31 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/subject/2024-03-31/</guid>
     <description><![CDATA[<h2 id="背景">背景</h2>
@@ -77,7 +78,7 @@
 <item>
     <title>非洲戰火再起—蘇丹內戰</title>
     <link>http://localhost:1313/posts/post/2023-04-22/</link>
-    <pubDate>Sat, 22 Apr 2023 21:11:09 &#43;0800</pubDate>
+    <pubDate>Sat, 22 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-04-22/</guid>
     <description><![CDATA[<p>本月15日，蘇丹政府軍與快速支援部隊（RSF）雙方在首都喀土穆國際機場爆發交火，快速支援部隊突襲蘇丹政府軍多處軍事基地，目前戰火已從喀土穆擴散至全國各地，蘇丹已經陷入內戰。</p>]]></description>
@@ -85,7 +86,7 @@
 <item>
     <title>巴西總統呼籲歐美停止干預烏俄戰爭</title>
     <link>http://localhost:1313/posts/post/2023-04-16/</link>
-    <pubDate>Sun, 16 Apr 2023 21:10:48 &#43;0800</pubDate>
+    <pubDate>Sun, 16 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-04-16/</guid>
     <description><![CDATA[<p>巴西總統魯拉近日說道，俄羅斯與烏克蘭必須針對停戰開啟雙邊對話，「雙方都沒有針對採取停戰行動」，並且他批評歐美國家提供烏克蘭武器會增長與擴大戰爭局勢。</p>
@@ -94,7 +95,7 @@
 <item>
     <title>五角大廈機密情報外洩</title>
     <link>http://localhost:1313/posts/post/2023-04-08/</link>
-    <pubDate>Sat, 08 Apr 2023 21:07:36 &#43;0800</pubDate>
+    <pubDate>Sat, 08 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-04-08/</guid>
     <description><![CDATA[<p>近日Twitter以及Telegram上出現一批外流機密文件，內容包含了烏克蘭春季攻勢的完整計畫以及美國國安重要訊息，在外洩資料中詳細列出了北約各國應該提供給予烏克蘭進行春季攻勢的裝備、協助訓練九個使用北約制式武器的旅級單位以及春季攻勢預定時辰，根據時間表，北約與烏克蘭應該在三月前完成所有準備，並在四月初發動攻勢，但目前這場攻勢還未開始，烏克蘭在部隊的整備上也尚未完善。</p>]]></description>
@@ -102,7 +103,7 @@
 <item>
     <title>匈牙利與土耳其批准芬蘭加入北約</title>
     <link>http://localhost:1313/posts/post/2023-04-01/</link>
-    <pubDate>Sat, 01 Apr 2023 02:08:02 &#43;0800</pubDate>
+    <pubDate>Sat, 01 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-04-01/</guid>
     <description><![CDATA[<div class="featured-image">
@@ -113,7 +114,7 @@
 <item>
     <title>摩爾多瓦的末日倒數</title>
     <link>http://localhost:1313/posts/post/2023-03-25/</link>
-    <pubDate>Thu, 23 Mar 2023 02:03:24 &#43;0800</pubDate>
+    <pubDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-03-25/</guid>
     <description><![CDATA[<p>摩爾多瓦議會今日決議將國家語言從”Moldovan”改成”Romania”。</p>
@@ -122,7 +123,7 @@
 <item>
     <title>摩爾多瓦，另一個面臨烏克蘭模式的國家</title>
     <link>http://localhost:1313/posts/post/2023-03-21/</link>
-    <pubDate>Tue, 14 Mar 2023 01:42:46 &#43;0800</pubDate>
+    <pubDate>Tue, 14 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-03-21/</guid>
     <description><![CDATA[<p>近日，東歐小國摩爾多瓦由於經濟問題日漸加劇，人民紛紛發起抗議要求總統杜桑下台，數年前因被起訴欺詐而流亡國外的親俄寡頭蕭爾所屬政黨近期也開始動員民眾抗議親歐政府。但美國白宮指控俄羅斯是這一系列抗議的幕後推動者，試圖推翻現有的親歐盟政府。</p>]]></description>
@@ -130,13 +131,22 @@
 <item>
     <title>西方「封禁抖音」熱潮</title>
     <link>http://localhost:1313/posts/post/2023-03-17/</link>
-    <pubDate>Thu, 02 Mar 2023 01:36:00 &#43;0800</pubDate>
+    <pubDate>Thu, 02 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/post/2023-03-17/</guid>
     <description><![CDATA[<p>上月月底，歐盟、加拿大與美國白宮先後對抖音程式採取了新一波的封禁政策。</p>
 <blockquote>
 <p>EU spokeswoman Sonya Gospodinova said the corporate management board of the European Commission, the EU&rsquo;s executive arm, had made the decision for security reasons.</p>
 <p>&ldquo;The measure aims to protect the Commission against cybersecurity threats and actions which may be exploited for cyberattacks against the corporate environment of the commission,&rdquo; she said.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
+</item>
+<item>
+    <title>離岸平衡</title>
+    <link>http://localhost:1313/posts/geopolitics/2023-02-06/</link>
+    <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/geopolitics/2023-02-06/</guid>
+    <description><![CDATA[<blockquote>
+<p>米爾斯海默：「這些遠處的霸權通常喜歡讓地區大國來制衡熱衷於追逐霸權的國家，它們則坐山觀虎鬥。 但有時這種推卸責任的策略並不可行，遙遠的霸權國家不得不插手以平衡崛起中的國家。」</p>]]></description>
 </item>
 </channel>
 </rss>

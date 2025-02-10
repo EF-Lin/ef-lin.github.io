@@ -9,7 +9,8 @@
     <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/python-note/2024-06-13/</guid>
-    <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
+    <description><![CDATA[<p>裝飾器為python的語法糖(syntax candy)，旨在簡化函式之間的相互呼叫，能透過簡單的<code>@</code>就呼叫出事先編寫好的函式。</p>
+<p>使用順序上則是遵循遞迴的(recursive)構造，會先將函式丟入離最近的裝飾器中，再將整體丟入更上層的裝飾器中。</p>]]></description>
 </item>
 <item>
     <title>python基礎語法</title>

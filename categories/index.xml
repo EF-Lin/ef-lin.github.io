@@ -14,7 +14,7 @@
 <item>
     <title>專題</title>
     <link>http://localhost:1313/categories/%E5%B0%88%E9%A1%8C/</link>
-    <pubDate>Sun, 31 Mar 2024 21:11:31 &#43;0800</pubDate>
+    <pubDate>Sun, 31 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/categories/%E5%B0%88%E9%A1%8C/</guid>
     <description><![CDATA[]]></description>
@@ -22,9 +22,17 @@
 <item>
     <title>隨筆雜談</title>
     <link>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86%E9%9B%9C%E8%AB%87/</link>
-    <pubDate>Sat, 22 Apr 2023 21:11:09 &#43;0800</pubDate>
+    <pubDate>Sat, 22 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86%E9%9B%9C%E8%AB%87/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>地緣政治</title>
+    <link>http://localhost:1313/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</link>
+    <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
