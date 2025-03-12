@@ -35,7 +35,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/localhost:1313\/posts\/python-note\/2024-06-13\/"
-        },"genre": "posts","keywords": "python, 語法","wordcount":  516 ,
+        },"genre": "posts","keywords": "python, 語法","wordcount":  547 ,
         "url": "http:\/\/localhost:1313\/posts\/python-note\/2024-06-13\/","datePublished": "2024-06-13T00:00:00+00:00","dateModified": "2024-06-13T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -123,7 +123,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">裝飾器(Decorator)</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Python</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-13">2024-06-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;516 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-13">2024-06-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;547 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -142,7 +142,9 @@
             <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content"><p>簡易的理解方式：擁有裝飾器的函式，會先執行裝飾器的內容，再執行原先函式。</p>
+            <div class="admonition-content">簡易的理解方式：擁有裝飾器的函式，會先執行裝飾器的內容，再執行原先函式。</div>
+        </div>
+    </div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -159,67 +161,96 @@
 </span><span class="lnt">12
 </span><span class="lnt">13
 </span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun2</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun2</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">fun</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This is not a decorator.&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">fun</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="n">decorator</span><span class="p">(</span><span class="n">fun2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1">#在語法糖中被@取代</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#以上等價於</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">fun</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This is a decorator.&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">fun</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@decorator</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun3</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="n">f1</span> <span class="o">=</span> <span class="n">fun2</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;&#39;This is not a decorator.&#39;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;5</span>
+</span></span><span class="line"><span class="cl">	<span class="n">f2</span> <span class="o">=</span> <span class="n">fun3</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;&#39;This is a decorator.&#39;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;5</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div>
-        </div>
-    </div>
-<p>#以上等價於</p>
-<p>def decorator(fun):
-print(&lsquo;This is a decorator.&rsquo;)
-return fun</p>
-<p>@decorator
-def fun3(v):
-print(v)</p>
-<p>if <strong>name</strong> == &ldquo;<strong>main</strong>&rdquo;:
-f1 = fun2(5)
-#&raquo;&gt;&lsquo;This is not a decorator.&rsquo;
-#&raquo;&gt;5
-f2 = fun3(5)
-#&raquo;&gt;&lsquo;This is a decorator.&rsquo;
-#&raquo;&gt;5</p>
-<pre tabindex="0"><code>
-
-此外，裝飾器本身也能帶有參數。
-
-```python{linenos=true}
-def decorator(text):
-    def decorator2(fun):
-        print(&#39;This is another decorator.&#39;)
-        return fun
-    print(&#39;This is a decorator.&#39;)
-    print(text)
-    return decorator2
-
-
-@decorator(&#39;Hello&#39;)
-def fun2(v):
-    print(v)
-
-
-if __name__ == &#34;__main__&#34;:
-    fun2(1)
-    #&gt;&gt;&gt;This is a decorator.
-	#&gt;&gt;&gt;Hello
-	#&gt;&gt;&gt;This is another decorator.
-	#&gt;&gt;&gt;1
-</code></pre><p>若裝飾器需要裝飾多個函式，每個函式間的參數皆不同，則需要使用<code>*args</code>、<code>**kwargs</code>。</p>
+</div><p>此外，裝飾器本身也能帶有參數。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">decorator2</span><span class="p">(</span><span class="n">fun</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This is another decorator.&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">fun</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;This is a decorator.&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">decorator2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@decorator</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun2</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fun2</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">#&gt;&gt;&gt;This is a decorator.</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;Hello</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;This is another decorator.</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">#&gt;&gt;&gt;1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>若裝飾器需要裝飾多個函式，每個函式間的參數皆不同，則需要使用<code>*args</code>、<code>**kwargs</code>。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
