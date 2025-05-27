@@ -3,9 +3,18 @@
         <title>EF&#39;s Cave</title>
         <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 13 May 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>美麗新世界</title>
+    <link>http://localhost:1313/posts/reading/2025-05-13/</link>
+    <pubDate>Tue, 13 May 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/reading/2025-05-13/</guid>
+    <description><![CDATA[<blockquote>
+<p>社會化是我們每個人必經的道路，社會化能聚沙成塔，凝聚眾人之力成就文明與奇蹟，無論你喜歡與否，每個人打從出生開始就注定是社群與集體的一部分。但在阿道斯·赫胥黎（Aldous Huxley）的著作《美麗新世界》（Brave New World）中卻對這一概念進行了極為嘲諷的描繪，他刻劃出一個烏托邦，一個無法反駁、快樂的美麗新世界，為身處二十一世紀的我們，提供了一則值得深思並引以為戒的警世寓言。</p>]]></description>
+</item>
+<item>
     <title>裝飾器(Decorator)</title>
     <link>http://localhost:1313/posts/python-note/2024-06-13/</link>
     <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
@@ -121,14 +130,6 @@
     <guid>http://localhost:1313/posts/news/2023-03-25/</guid>
     <description><![CDATA[<p>摩爾多瓦議會今日決議將國家語言從”Moldovan”改成”Romania”。</p>
 <p>根據他們的說法，摩爾多瓦是蘇俄發明的假概念，目的是為了合理化1940年對這塊土地的併吞行為。因此這是一場「去俄化」的運動。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
-</item>
-<item>
-    <title>摩爾多瓦，另一個面臨烏克蘭模式的國家</title>
-    <link>http://localhost:1313/posts/news/2023-03-21/</link>
-    <pubDate>Tue, 14 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>http://localhost:1313/posts/news/2023-03-21/</guid>
-    <description><![CDATA[<p>近日，東歐小國摩爾多瓦由於經濟問題日漸加劇，人民紛紛發起抗議要求總統杜桑下台，數年前因被起訴欺詐而流亡國外的親俄寡頭蕭爾所屬政黨近期也開始動員民眾抗議親歐政府。但美國白宮指控俄羅斯是這一系列抗議的幕後推動者，試圖推翻現有的親歐盟政府。</p>]]></description>
 </item>
 </channel>
 </rss>
