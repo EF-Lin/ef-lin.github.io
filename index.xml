@@ -3,9 +3,27 @@
         <title>EF&#39;s Cave</title>
         <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 13 May 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>沙丘神帝</title>
+    <link>http://localhost:1313/posts/reading/2025-06-17/</link>
+    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/reading/2025-06-17/</guid>
+    <description><![CDATA[<blockquote>
+<p>神奇的伊克斯儀器紀錄下雷托·亞崔迪的思想，統整為《失竊的日記》一書並將之隱匿，這既是《沙丘神帝》的開頭也是結尾。當雷托皇帝逝去後，日記便可以向後人揭示揭示雷托神帝真正的目的與智慧，為其平反。神帝曾無數次向古老沙丘星球的吶喊，渴望有人能替他分擔作為黃金之路領路人的重責。《沙丘神帝》是一本沉重的書籍，它不但承接保羅·亞崔迪不敢踏上的道路，更描繪出專屬於先知的千年孤獨。</p>]]></description>
+</item>
+<item>
+    <title>生存的十二條法則</title>
+    <link>http://localhost:1313/posts/reading/2025-06-09/</link>
+    <pubDate>Mon, 09 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/reading/2025-06-09/</guid>
+    <description><![CDATA[<blockquote>
+<p>「快樂就好」是現代人常見的立場，但在喬丹·彼得森（Jordan Peterson）認為，快樂並不應該成為人生的追求，我們應該行走在混亂與秩序的邊界，尋找道家倡導的陰陽調和，追求遠比快樂偉大的意義。彼得森也藉由《生存的十二條法則》點出一條發現價值與意義的道路，指導我們如何從注重自身開始，遵循傳統的教誨，挖掘出生命中的善良，對抗充斥在人類社會中的怨恨、憎惡與黑暗，並勇敢的承擔起自己的責任。</p>]]></description>
+</item>
+<item>
     <title>美麗新世界</title>
     <link>http://localhost:1313/posts/reading/2025-05-13/</link>
     <pubDate>Tue, 13 May 2025 00:00:00 &#43;0000</pubDate>
@@ -110,26 +128,6 @@
     <author>EFLin</author>
     <guid>http://localhost:1313/posts/news/2023-04-08/</guid>
     <description><![CDATA[<p>近日Twitter以及Telegram上出現一批外流機密文件，內容包含了烏克蘭春季攻勢的完整計畫以及美國國安重要訊息，在外洩資料中詳細列出了北約各國應該提供給予烏克蘭進行春季攻勢的裝備、協助訓練九個使用北約制式武器的旅級單位以及春季攻勢預定時辰，根據時間表，北約與烏克蘭應該在三月前完成所有準備，並在四月初發動攻勢，但目前這場攻勢還未開始，烏克蘭在部隊的整備上也尚未完善。</p>]]></description>
-</item>
-<item>
-    <title>匈牙利與土耳其批准芬蘭加入北約</title>
-    <link>http://localhost:1313/posts/news/2023-04-01/</link>
-    <pubDate>Sat, 01 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>http://localhost:1313/posts/news/2023-04-01/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/post/Finland_Nato.png" referrerpolicy="no-referrer">
-            </div><p>在匈牙利於三月27日批准芬蘭成為北約會員國後，土耳其國會也緊接著在三月31日通過此案，北約迎來第三十一個成員國、第七個波羅地海周邊國家。</p>
-<p>芬蘭與瑞典於去年因為俄烏戰爭而申請加入北約。但由於這兩個北歐國家持續接納被土耳其認定為恐怖份子的庫德族武裝團體，安卡拉當局因此強硬拒絕通過這兩國的入會申請，近日土匈兩國軟化了對芬蘭的態度，但對瑞典的態度還尚未改變。</p>]]></description>
-</item>
-<item>
-    <title>摩爾多瓦的末日倒數</title>
-    <link>http://localhost:1313/posts/news/2023-03-25/</link>
-    <pubDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>http://localhost:1313/posts/news/2023-03-25/</guid>
-    <description><![CDATA[<p>摩爾多瓦議會今日決議將國家語言從”Moldovan”改成”Romania”。</p>
-<p>根據他們的說法，摩爾多瓦是蘇俄發明的假概念，目的是為了合理化1940年對這塊土地的併吞行為。因此這是一場「去俄化」的運動。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
 </item>
 </channel>
 </rss>
