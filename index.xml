@@ -3,9 +3,18 @@
         <title>EF&#39;s Cave</title>
         <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>鐵約翰：一本關於男性啟蒙的書</title>
+    <link>http://localhost:1313/posts/reading/2025-07-08/</link>
+    <pubDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/reading/2025-07-08/</guid>
+    <description><![CDATA[<blockquote>
+<p>羅伯特·布萊（Robert Bly）認為現代社會中存在大量的男孩、卻很少有男人是由於現代男性缺乏啟蒙所致。因此在《鐵約翰：一本關於男性啟蒙的書》（又譯上帝之肋：一部男人的文化史）中，羅伯特深入討論現代男性困境並從原始主義、神話學、心理學和人類學的角度提出一條屬於男性（有時也適用於女性）的啟蒙道路，教導讀者如何成為男人、戰士和國王。除此之外，羅伯特也闡述了他在人生、挑戰與愛情等重要議題上——與如今主流思想與眾不同——的獨特價值觀。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
+</item>
+<item>
     <title>沙丘神帝</title>
     <link>http://localhost:1313/posts/reading/2025-06-17/</link>
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -120,14 +129,6 @@
     <guid>http://localhost:1313/posts/news/2023-04-16/</guid>
     <description><![CDATA[<p>巴西總統魯拉近日說道，俄羅斯與烏克蘭必須針對停戰開啟雙邊對話，「雙方都沒有針對採取停戰行動」，並且他批評歐美國家提供烏克蘭武器會增長與擴大戰爭局勢。</p>
 <p>在四月6日，魯拉曾與普丁對俄烏戰爭和談的可能性進行通話，隨後他便建議烏克蘭放棄烏東領土換取與俄國的和平。</p>]]></description>
-</item>
-<item>
-    <title>五角大廈機密情報外洩</title>
-    <link>http://localhost:1313/posts/news/2023-04-08/</link>
-    <pubDate>Sat, 08 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>http://localhost:1313/posts/news/2023-04-08/</guid>
-    <description><![CDATA[<p>近日Twitter以及Telegram上出現一批外流機密文件，內容包含了烏克蘭春季攻勢的完整計畫以及美國國安重要訊息，在外洩資料中詳細列出了北約各國應該提供給予烏克蘭進行春季攻勢的裝備、協助訓練九個使用北約制式武器的旅級單位以及春季攻勢預定時辰，根據時間表，北約與烏克蘭應該在三月前完成所有準備，並在四月初發動攻勢，但目前這場攻勢還未開始，烏克蘭在部隊的整備上也尚未完善。</p>]]></description>
 </item>
 </channel>
 </rss>
