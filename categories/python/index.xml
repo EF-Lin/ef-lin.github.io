@@ -5,27 +5,27 @@
         <description>Python - Category - EF&#39;s Cave</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/categories/python/" rel="self" type="application/rss+xml" /><item>
     <title>裝飾器(Decorator)</title>
-    <link>https://ef-lin.github.io/posts/python-note/2024-06-13/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-13/</link>
     <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python-note/2024-06-13/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-13/</guid>
     <description><![CDATA[<p>裝飾器為python的語法糖(syntax candy)，旨在簡化函式之間的相互呼叫，能透過簡單的<code>@</code>就呼叫出事先編寫好的函式。</p>
 <p>使用順序上則是遵循遞迴的(recursive)構造，會先將函式丟入離最近的裝飾器中，再將整體丟入更上層的裝飾器中。</p>]]></description>
 </item>
 <item>
     <title>python基礎語法</title>
-    <link>https://ef-lin.github.io/posts/python-note/2024-06-07/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-07/</link>
     <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python-note/2024-06-07/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-07/</guid>
     <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
 </item>
 <item>
     <title>全域變數與區域變數</title>
-    <link>https://ef-lin.github.io/posts/python-note/2024-06-07-2/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-07-2/</link>
     <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python-note/2024-06-07-2/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-07-2/</guid>
     <description><![CDATA[<h2 id="全域變數global">全域變數(Global)</h2>
 <p>一般情況下，全域變數(Global)可被function、class獲取，但不可修改。</p>
 <div class="highlight"><div class="chroma">
