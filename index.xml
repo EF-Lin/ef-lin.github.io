@@ -3,9 +3,17 @@
         <title>EF&#39;s Cave</title>
         <link>https://ef-lin.github.io/</link>
         <description>This is my a website telling stories</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 15 Aug 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://ef-lin.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>蟲師</title>
+    <link>https://ef-lin.github.io/posts/reading/2025-08-15/</link>
+    <pubDate>Fri, 15 Aug 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/reading/2025-08-15/</guid>
+    <description><![CDATA[<p>《蟲師》是日本漫畫家漆原友紀的作品，畫風非常美，也很符合我對傳統日本的想像：充滿了山、水和自然，是城市和狂暴的相對與神道的展現。 或是用一個具體的形容，當你踏入日本無人神社時，所感受到的自身與自然間的純粹互動。</p>]]></description>
+</item>
+<item>
     <title>新加坡遊記</title>
     <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
@@ -121,14 +129,6 @@
     <description><![CDATA[<h2 id="背景">背景</h2>
 <h3 id="紛爭不斷的高加索">紛爭不斷的高加索</h3>
 <p>歸因於高加索破碎的地形以及複雜的種族情勢，自第一次納戈爾諾-卡拉巴赫戰爭爆發（the first Nagorno-Karabakh war）以來，亞美尼亞與亞賽拜然便一直處於對立情勢；雙方指控對方犯下種族屠殺罪刑、相互佔領領土、驅離國民。</p>]]></description>
-</item>
-<item>
-    <title>非洲戰火再起—蘇丹內戰</title>
-    <link>https://ef-lin.github.io/posts/news/2023-04-22/</link>
-    <pubDate>Sat, 22 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/news/2023-04-22/</guid>
-    <description><![CDATA[<p>本月15日，蘇丹政府軍與快速支援部隊（RSF）雙方在首都喀土穆國際機場爆發交火，快速支援部隊突襲蘇丹政府軍多處軍事基地，目前戰火已從喀土穆擴散至全國各地，蘇丹已經陷入內戰。</p>]]></description>
 </item>
 </channel>
 </rss>
