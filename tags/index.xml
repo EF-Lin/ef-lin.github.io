@@ -76,6 +76,46 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Pyproject.toml</title>
+    <link>https://ef-lin.github.io/tags/pyproject.toml/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/pyproject.toml/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Python</title>
+    <link>https://ef-lin.github.io/tags/python/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Uv</title>
+    <link>https://ef-lin.github.io/tags/uv/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/uv/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Venv</title>
+    <link>https://ef-lin.github.io/tags/venv/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/venv/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>專案架構</title>
+    <link>https://ef-lin.github.io/tags/%E5%B0%88%E6%A1%88%E6%9E%B6%E6%A7%8B/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/%E5%B0%88%E6%A1%88%E6%9E%B6%E6%A7%8B/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>上帝之肋一部男人的文化史</title>
     <link>https://ef-lin.github.io/tags/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E8%82%8B%E4%B8%80%E9%83%A8%E7%94%B7%E4%BA%BA%E7%9A%84%E6%96%87%E5%8C%96%E5%8F%B2/</link>
     <pubDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</pubDate>
@@ -121,46 +161,6 @@
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>https://ef-lin.github.io/tags/%E6%B2%99%E4%B8%98/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>法蘭克赫伯特</title>
-    <link>https://ef-lin.github.io/tags/%E6%B3%95%E8%98%AD%E5%85%8B%E8%B5%AB%E4%BC%AF%E7%89%B9/</link>
-    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%B3%95%E8%98%AD%E5%85%8B%E8%B5%AB%E4%BC%AF%E7%89%B9/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>喬丹彼得森</title>
-    <link>https://ef-lin.github.io/tags/%E5%96%AC%E4%B8%B9%E5%BD%BC%E5%BE%97%E6%A3%AE/</link>
-    <pubDate>Mon, 09 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%96%AC%E4%B8%B9%E5%BD%BC%E5%BE%97%E6%A3%AE/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>生存的十二條法則</title>
-    <link>https://ef-lin.github.io/tags/%E7%94%9F%E5%AD%98%E7%9A%84%E5%8D%81%E4%BA%8C%E6%A2%9D%E6%B3%95%E5%89%87/</link>
-    <pubDate>Mon, 09 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E7%94%9F%E5%AD%98%E7%9A%84%E5%8D%81%E4%BA%8C%E6%A2%9D%E6%B3%95%E5%89%87/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>美麗新世界</title>
-    <link>https://ef-lin.github.io/tags/%E7%BE%8E%E9%BA%97%E6%96%B0%E4%B8%96%E7%95%8C/</link>
-    <pubDate>Tue, 13 May 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E7%BE%8E%E9%BA%97%E6%96%B0%E4%B8%96%E7%95%8C/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>赫胥黎</title>
-    <link>https://ef-lin.github.io/tags/%E8%B5%AB%E8%83%A5%E9%BB%8E/</link>
-    <pubDate>Tue, 13 May 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E8%B5%AB%E8%83%A5%E9%BB%8E/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

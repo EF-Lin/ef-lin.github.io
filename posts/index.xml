@@ -37,6 +37,42 @@
 <p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
 </item>
 <item>
+    <title>python專案架構</title>
+    <link>https://ef-lin.github.io/posts/python/2025-07-27/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2025-07-27/</guid>
+    <description><![CDATA[<h2 id="venv">venv</h2>
+<p>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python -m venv .venv
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>啟動虛擬環境：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># powershell</span>
+</span></span><span class="line"><span class="cl">.venv<span class="se">\S</span>cripts<span class="se">\A</span>ctivate.ps1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># cmd</span>
+</span></span><span class="line"><span class="cl">.venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate.bat
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="requirements">requirements</h2>
+<p>生成<code>requirements.txt</code>：</p>]]></description>
+</item>
+<item>
     <title>鐵約翰：一本關於男性啟蒙的書</title>
     <link>https://ef-lin.github.io/posts/reading/2025-07-08/</link>
     <pubDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</pubDate>
@@ -95,17 +131,20 @@
     <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>https://ef-lin.github.io/posts/python/2024-06-07-2/</guid>
-    <description><![CDATA[<h2 id="全域變數global">全域變數(Global)</h2>
-<p>一般情況下，全域變數(Global)可被function、class獲取，但不可修改。</p>
+    <description><![CDATA[<h2 id="全域變數">全域變數</h2>
+<p>一般情況下，全域變數（Global Variable）可被function、class獲取，但不可修改。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#這是一個全域變數</span>
@@ -113,26 +152,14 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
 </span></span><span class="line"><span class="cl">	<span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">	<span class="c1">#GA += 10</span>
-</span></span><span class="line"><span class="cl">	<span class="c1">#UnboundLocalError</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>使用<code>global</code>後，全域變數才可被修改。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">	<span class="n">GA</span> <span class="o">+=</span> <span class="mi">10</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">	<span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="n">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;10</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;UnboundLocalError</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>假使<code>global</code>的全域變數對象不存在，則會建立一新的全域變數。</p>]]></description>
+</div><p>使用<code>global</code>後，全域變數才可被修改。</p>]]></description>
 </item>
 <item>
     <title>亞美尼亞與亞賽拜然邊境爭議</title>
@@ -207,15 +234,6 @@
 <blockquote>
 <p>EU spokeswoman Sonya Gospodinova said the corporate management board of the European Commission, the EU&rsquo;s executive arm, had made the decision for security reasons.</p>
 <p>&ldquo;The measure aims to protect the Commission against cybersecurity threats and actions which may be exploited for cyberattacks against the corporate environment of the commission,&rdquo; she said.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
-</item>
-<item>
-    <title>離岸平衡</title>
-    <link>https://ef-lin.github.io/posts/geopolitics/2023-02-06/</link>
-    <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/geopolitics/2023-02-06/</guid>
-    <description><![CDATA[<blockquote>
-<p>米爾斯海默：「這些遠處的霸權通常喜歡讓地區大國來制衡熱衷於追逐霸權的國家，它們則坐山觀虎鬥。 但有時這種推卸責任的策略並不可行，遙遠的霸權國家不得不插手以平衡崛起中的國家。」</p>]]></description>
 </item>
 </channel>
 </rss>

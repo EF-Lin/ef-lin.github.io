@@ -1,0 +1,43 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Pyproject.toml - Tag - EF&#39;s Cave</title>
+        <link>https://ef-lin.github.io/tags/pyproject.toml/</link>
+        <description>Pyproject.toml - Tag - EF&#39;s Cave</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/pyproject.toml/" rel="self" type="application/rss+xml" /><item>
+    <title>python專案架構</title>
+    <link>https://ef-lin.github.io/posts/python/2025-07-27/</link>
+    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2025-07-27/</guid>
+    <description><![CDATA[<h2 id="venv">venv</h2>
+<p>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python -m venv .venv
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>啟動虛擬環境：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># powershell</span>
+</span></span><span class="line"><span class="cl">.venv<span class="se">\S</span>cripts<span class="se">\A</span>ctivate.ps1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># cmd</span>
+</span></span><span class="line"><span class="cl">.venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate.bat
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="requirements">requirements</h2>
+<p>生成<code>requirements.txt</code>：</p>]]></description>
+</item>
+</channel>
+</rss>

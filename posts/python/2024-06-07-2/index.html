@@ -7,22 +7,24 @@
         <title>全域變數與區域變數 - EF&#39;s Cave</title><meta name="Description" content="This is a website telling stories"><meta property="og:url" content="https://ef-lin.github.io/posts/python/2024-06-07-2/">
   <meta property="og:site_name" content="EF&#39;s Cave">
   <meta property="og:title" content="全域變數與區域變數">
-  <meta property="og:description" content="全域變數(Global) 一般情況下，全域變數(Global)可被function、class獲取，但不可修改。
-1 2 3 4 5 6 7 #這是一個全域變數 GV = 10 def function(): print(GV) #GA &#43;= 10 #UnboundLocalError 使用global後，全域變數才可被修改。
-1 2 3 4 GV = 10 def function(): GV &#43;= 10 假使global的全域變數對象不存在，則會建立一新的全域變數。">
+  <meta property="og:description" content="全域變數 一般情況下，全域變數（Global Variable）可被function、class獲取，但不可修改。
+1 2 3 4 5 6 7 8 9 10 #這是一個全域變數 GV = 10 def function(): print(GV) GA &#43;= 10 function() #&gt;&gt;&gt;10 #&gt;&gt;&gt;UnboundLocalError 使用global後，全域變數才可被修改。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-06-07T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-06-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-23T00:00:00+00:00">
     <meta property="article:tag" content="Python">
     <meta property="article:tag" content="語法">
+    <meta property="article:tag" content="全域變數">
+    <meta property="article:tag" content="區域變數">
+    <meta property="article:tag" content="Global">
+    <meta property="article:tag" content="Nonlocal">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="全域變數與區域變數">
-  <meta name="twitter:description" content="全域變數(Global) 一般情況下，全域變數(Global)可被function、class獲取，但不可修改。
-1 2 3 4 5 6 7 #這是一個全域變數 GV = 10 def function(): print(GV) #GA &#43;= 10 #UnboundLocalError 使用global後，全域變數才可被修改。
-1 2 3 4 GV = 10 def function(): GV &#43;= 10 假使global的全域變數對象不存在，則會建立一新的全域變數。">
+  <meta name="twitter:description" content="全域變數 一般情況下，全域變數（Global Variable）可被function、class獲取，但不可修改。
+1 2 3 4 5 6 7 8 9 10 #這是一個全域變數 GV = 10 def function(): print(GV) GA &#43;= 10 function() #&gt;&gt;&gt;10 #&gt;&gt;&gt;UnboundLocalError 使用global後，全域變數才可被修改。">
 <meta name="application-name" content="EF&#39;s Cave">
 <meta name="apple-mobile-web-app-title" content="EF&#39;s Cave"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -37,8 +39,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ef-lin.github.io\/posts\/python\/2024-06-07-2\/"
-        },"image": ["https:\/\/ef-lin.github.io\/images\/avatar.jpg"],"genre": "posts","keywords": "python, 語法","wordcount":  275 ,
-        "url": "https:\/\/ef-lin.github.io\/posts\/python\/2024-06-07-2\/","datePublished": "2024-06-07T00:00:00+00:00","dateModified": "2024-06-07T00:00:00+00:00","publisher": {
+        },"image": ["https:\/\/ef-lin.github.io\/images\/avatar.jpg"],"genre": "posts","keywords": "python, 語法, 全域變數, 區域變數, global, nonlocal","wordcount":  447 ,
+        "url": "https:\/\/ef-lin.github.io\/posts\/python\/2024-06-07-2\/","datePublished": "2024-06-07T00:00:00+00:00","dateModified": "2025-08-23T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "EFLin","logo": "https:\/\/ef-lin.github.io\/images\/avatar.jpg"},"author": {
                 "@type": "Person",
@@ -93,7 +95,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">全域變數與區域變數</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Python</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-07">2024-06-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;275 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-07">2024-06-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;447 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -101,21 +103,25 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#全域變數global">全域變數(Global)</a></li>
-    <li><a href="#區域變數nonlocal">區域變數(Nonlocal)</a></li>
+    <li><a href="#全域變數">全域變數</a></li>
+    <li><a href="#區域變數">區域變數</a></li>
+    <li><a href="#小結">小結</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="全域變數global">全域變數(Global)</h2>
-<p>一般情況下，全域變數(Global)可被function、class獲取，但不可修改。</p>
+            </div><div class="content" id="content"><h2 id="全域變數">全域變數</h2>
+<p>一般情況下，全域變數（Global Variable）可被function、class獲取，但不可修改。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#這是一個全域變數</span>
@@ -123,8 +129,11 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
 </span></span><span class="line"><span class="cl">	<span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">	<span class="c1">#GA += 10</span>
-</span></span><span class="line"><span class="cl">	<span class="c1">#UnboundLocalError</span>
+</span></span><span class="line"><span class="cl">	<span class="n">GA</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;10</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;UnboundLocalError</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>使用<code>global</code>後，全域變數才可被修改。</p>
@@ -134,29 +143,25 @@
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">	<span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="n">GV</span>
+</span></span><span class="line"><span class="cl">    <span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;20</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>假使<code>global</code>的全域變數對象不存在，則會建立一新的全域變數。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">	<span class="k">global</span> <span class="n">GA</span>
-</span></span><span class="line"><span class="cl">	<span class="n">GA</span> <span class="o">=</span> <span class="mi">10</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="區域變數nonlocal">區域變數(Nonlocal)</h2>
-<p>區域變數(Nonlocal)與全域變數情況相同，可被下一層(或下幾層)獲取，但不可修改。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -169,42 +174,88 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">	<span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">		<span class="nb">print</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">		<span class="c1">#g += 10</span>
-</span></span><span class="line"><span class="cl">		<span class="c1">#UnboundLocalError</span>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">function</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="n">GV</span>
+</span></span><span class="line"><span class="cl">    <span class="n">GV</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="n">GV</span> <span class="o">+=</span> <span class="mi">10</span>  
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl">	<span class="n">fun2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">function</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">GV</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;20</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="區域變數">區域變數</h2>
+<p>區域變數（Local Variable）與全域變數情況相同，可被下一層（或下幾層）獲取，但不可修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fun3</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="n">g</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fun2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fun3</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fun</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;10</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;UnboundLocalError</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>使用<code>nonlocal</code>後，區域變數才可被修改。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">fun</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">	<span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">		<span class="k">nonlocal</span> <span class="n">g</span>
-</span></span><span class="line"><span class="cl">		<span class="n">g</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="k">nonlocal</span> <span class="n">g</span>
+</span></span><span class="line"><span class="cl">        <span class="n">g</span> <span class="o">+=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>  
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl">	<span class="n">fun2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fun2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fun</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#&gt;&gt;&gt;20</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h2 id="小結">小結</h2>
+<p>總而言之，無論是全域變數或區域變數，皆只能被下級層獲取，無法修改（相反來說，上層則永遠也無法獲取下層的變數）。若要修改必須使用<code>global</code>或<code>nonlocal</code>，但還是建議在設計程式之初就安排好變數間的層級關係，避免過度跨越層級調用才能編寫出可讀、可維護的code。</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-06-07</span>
+                <span>Updated on 2025-08-23</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -215,7 +266,7 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/%E8%AA%9E%E6%B3%95/">語法</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/%E8%AA%9E%E6%B3%95/">語法</a>,&nbsp;<a href="/tags/%E5%85%A8%E5%9F%9F%E8%AE%8A%E6%95%B8/">全域變數</a>,&nbsp;<a href="/tags/%E5%8D%80%E5%9F%9F%E8%AE%8A%E6%95%B8/">區域變數</a>,&nbsp;<a href="/tags/global/">Global</a>,&nbsp;<a href="/tags/nonlocal/">Nonlocal</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
