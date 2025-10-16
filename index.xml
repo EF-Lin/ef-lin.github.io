@@ -3,9 +3,77 @@
         <title>EF&#39;s Cave</title>
         <link>https://ef-lin.github.io/</link>
         <description>This is a website telling stories</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://ef-lin.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>新加坡遊記</title>
+    <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
+    <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/travel/2025-08-10/</guid>
+    <description><![CDATA[<p>Singapura，努山塔里亞中的獅城。</p>
+<p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
+</item>
+<item>
+    <title>pytest</title>
+    <link>https://ef-lin.github.io/posts/python/2025-10-16/</link>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2025-10-16/</guid>
+    <description><![CDATA[<p>建立自動化測試流程。</p>
+<h2 id="基本結構">基本結構</h2>
+<p>測試文件以<code>test_</code>開頭，在更複雜的專案中可將整體鏡像放置在<code>tests/</code>資料夾中。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">src/
+</span></span><span class="line"><span class="cl">├───calculate.py
+</span></span><span class="line"><span class="cl">└───test_calculate.py
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="編寫-pytest">編寫 pytest</h2>
+<p><code>calculate.py</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Calculator</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&#34;Cannot divide by zero.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">a</span> <span class="o">/</span> <span class="n">b</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>test_calculate.py</code></p>]]></description>
+</item>
+<item>
     <title>柔らかい角（柔軟的角）</title>
     <link>https://ef-lin.github.io/posts/mushishi/2025-08-19/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
@@ -28,15 +96,6 @@
     <author>EFLin</author>
     <guid>https://ef-lin.github.io/posts/mushishi/2025-08-11/</guid>
     <description><![CDATA[<p>以人的手掌來比喻的話，大拇指代表植物，四指代表動物，而人類則是位於心臟最遠的中指。順著手指愈往下，生物愈低等，動植物的分界逐漸模糊。若一直追溯到心臟，那裡是最接近生命原體的存在：蟲，或稱為綠物質。蟲的存在與形狀都混濁不清，只能被拒有特殊體質的人看見，那些看不見蟲的人永遠也不能瞭解蟲，「就像無法把對方沒摸過的觸感，原原本本地直接傳遞給對方一樣」。</p>]]></description>
-</item>
-<item>
-    <title>新加坡遊記</title>
-    <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
-    <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/travel/2025-08-10/</guid>
-    <description><![CDATA[<p>Singapura，努山塔里亞中的獅城。</p>
-<p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
 </item>
 <item>
     <title>python專案架構</title>
@@ -109,15 +168,6 @@
     <guid>https://ef-lin.github.io/posts/reading/2025-05-13/</guid>
     <description><![CDATA[<blockquote>
 <p>社會化是我們每個人必經的道路，社會化能聚沙成塔，凝聚眾人之力成就文明與奇蹟，無論喜歡與否，每個人打從出生開始就注定是社群與集體的一部分。但在阿道斯·赫胥黎（Aldous Huxley）的著作《美麗新世界》（Brave New World）中卻對這一概念進行了極為嘲諷的描繪，他刻劃出一個烏托邦，一個無法反駁、快樂的美麗新世界，為身處二十一世紀的我們，提供了一則值得深思並引以為戒的警世寓言。</p>]]></description>
-</item>
-<item>
-    <title>裝飾器(Decorator)</title>
-    <link>https://ef-lin.github.io/posts/python/2024-06-13/</link>
-    <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python/2024-06-13/</guid>
-    <description><![CDATA[<p>裝飾器為python的語法糖(syntax candy)，旨在簡化函式之間的相互呼叫，能透過簡單的<code>@</code>就呼叫出事先編寫好的函式。</p>
-<p>使用順序上則是遵循遞迴的(recursive)構造，會先將函式丟入離最近的裝飾器中，再將整體丟入更上層的裝飾器中。</p>]]></description>
 </item>
 </channel>
 </rss>

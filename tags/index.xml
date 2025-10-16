@@ -3,7 +3,23 @@
         <title>Tags - Tag - EF&#39;s Cave</title>
         <link>https://ef-lin.github.io/tags/</link>
         <description>Tags - Tag - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Pytest</title>
+    <link>https://ef-lin.github.io/tags/pytest/</link>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/pytest/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Python</title>
+    <link>https://ef-lin.github.io/tags/python/</link>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>柔らかい角</title>
     <link>https://ef-lin.github.io/tags/%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%A7%92/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
@@ -84,14 +100,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Python</title>
-    <link>https://ef-lin.github.io/tags/python/</link>
-    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/python/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Uv</title>
     <link>https://ef-lin.github.io/tags/uv/</link>
     <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
@@ -153,14 +161,6 @@
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
     <guid>https://ef-lin.github.io/tags/%E5%BF%83%E5%BE%97/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>沙丘</title>
-    <link>https://ef-lin.github.io/tags/%E6%B2%99%E4%B8%98/</link>
-    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%B2%99%E4%B8%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
