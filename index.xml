@@ -3,16 +3,16 @@
         <title>EF&#39;s Cave</title>
         <link>https://ef-lin.github.io/</link>
         <description>This is a website telling stories</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://ef-lin.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>新加坡遊記</title>
-    <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
-    <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
+    <title>選擇你的幻神——韋伯〈學術作為一種志業〉</title>
+    <link>https://ef-lin.github.io/posts/note/2026-02-14/</link>
+    <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/travel/2025-08-10/</guid>
-    <description><![CDATA[<p>Singapura，努山塔里亞中的獅城。</p>
-<p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
+    <guid>https://ef-lin.github.io/posts/note/2026-02-14/</guid>
+    <description><![CDATA[<h2 id="神殞">神殞</h2>
+<p>從希臘文明開始「概念」在西方思想中一直佔據主宰地位，如《理想國》中著名的洞窟寓言，第一個見到象徵「真、善、美」太陽的哲學家會帶領所有久居山洞的子民走出黑暗，迎向光明。承襲此一觀點，基督教認為上帝就是至善的化身，但韋伯所處時代正值普魯士文明的黃金盛世，康德與唯心學派帶來顛覆性的哲學革命，自然科學蓬勃發展、社會科學萌芽。專業化學術體制的建立逐漸推動基督信仰變革。</p>]]></description>
 </item>
 <item>
     <title>pytest</title>
@@ -98,6 +98,15 @@
     <description><![CDATA[<p>以人的手掌來比喻的話，大拇指代表植物，四指代表動物，而人類則是位於心臟最遠的中指。順著手指愈往下，生物愈低等，動植物的分界逐漸模糊。若一直追溯到心臟，那裡是最接近生命原體的存在：蟲，或稱為綠物質。蟲的存在與形狀都混濁不清，只能被拒有特殊體質的人看見，那些看不見蟲的人永遠也不能瞭解蟲，「就像無法把對方沒摸過的觸感，原原本本地直接傳遞給對方一樣」。</p>]]></description>
 </item>
 <item>
+    <title>新加坡遊記</title>
+    <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
+    <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/travel/2025-08-10/</guid>
+    <description><![CDATA[<p>Singapura，努山塔里亞中的獅城。</p>
+<p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
+</item>
+<item>
     <title>python專案架構</title>
     <link>https://ef-lin.github.io/posts/python/2025-07-27/</link>
     <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
@@ -159,15 +168,6 @@
     <guid>https://ef-lin.github.io/posts/reading/2025-06-09/</guid>
     <description><![CDATA[<blockquote>
 <p>「快樂就好」是現代人常見的立場，但在喬丹·彼得森（Jordan Peterson）認為，快樂並不應該成為人生的追求，我們應該行走在混亂與秩序的邊界，尋找道家倡導的陰陽調和，追求遠比快樂偉大的意義。彼得森也藉由《生存的十二條法則》點出一條發現價值與意義的道路，指導我們如何從注重自身開始，遵循傳統的教誨，挖掘出生命中的善良，對抗充斥在人類社會中的怨恨、憎惡與黑暗，並勇敢的承擔起自己的責任。</p>]]></description>
-</item>
-<item>
-    <title>美麗新世界</title>
-    <link>https://ef-lin.github.io/posts/reading/2025-05-13/</link>
-    <pubDate>Tue, 13 May 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/reading/2025-05-13/</guid>
-    <description><![CDATA[<blockquote>
-<p>社會化是我們每個人必經的道路，社會化能聚沙成塔，凝聚眾人之力成就文明與奇蹟，無論喜歡與否，每個人打從出生開始就注定是社群與集體的一部分。但在阿道斯·赫胥黎（Aldous Huxley）的著作《美麗新世界》（Brave New World）中卻對這一概念進行了極為嘲諷的描繪，他刻劃出一個烏托邦，一個無法反駁、快樂的美麗新世界，為身處二十一世紀的我們，提供了一則值得深思並引以為戒的警世寓言。</p>]]></description>
 </item>
 </channel>
 </rss>
