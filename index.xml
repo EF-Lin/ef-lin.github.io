@@ -3,9 +3,25 @@
         <title>EF&#39;s Cave</title>
         <link>https://ef-lin.github.io/</link>
         <description>This is a website telling stories</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://ef-lin.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>諾蘭與他的《奧德賽》</title>
+    <link>https://ef-lin.github.io/posts/note/2026-07-20/</link>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/note/2026-07-20/</guid>
+    <description><![CDATA[<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>劇透警告<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">本篇文章含劇透內容，請小心服用。</div>
+        </div>
+    </div>
+<p>《奧德賽》與《伊利亞得》是荷馬最重要的兩篇神話史詩，後者講述希臘城邦對特洛伊城的圍攻，前者則傳唱英雄奧德修斯的返家之路。諾蘭這次改編《奧德賽》為電影挑戰性很大，看過希臘神話絕對可以提升觀影體驗，抓到許多用心還原的小細節，不過劇情相對友善，沒看過也不會影響太多。</p>]]></description>
+</item>
+<item>
     <title>選擇你的幻神——韋伯〈學術作為一種志業〉</title>
     <link>https://ef-lin.github.io/posts/note/2026-02-14/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
@@ -159,15 +175,6 @@
     <guid>https://ef-lin.github.io/posts/reading/2025-06-17/</guid>
     <description><![CDATA[<blockquote>
 <p>神奇的伊克斯儀器紀錄下雷托·亞崔迪的思想，統整為《失竊的日記》一書並將之隱匿，這既是《沙丘神帝》的開頭也是結尾。當雷托皇帝逝去後，日記便可以向後人揭示揭示雷托神帝真正的目的與智慧，為其平反。神帝曾無數次向古老沙丘星球的吶喊，渴望有人能替他分擔作為黃金之路領路人的重責。《沙丘神帝》是一本沉重的書籍，它不但承接保羅·亞崔迪不敢踏上的道路，更描繪出專屬於先知的千年孤獨。</p>]]></description>
-</item>
-<item>
-    <title>生存的十二條法則</title>
-    <link>https://ef-lin.github.io/posts/reading/2025-06-09/</link>
-    <pubDate>Mon, 09 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/reading/2025-06-09/</guid>
-    <description><![CDATA[<blockquote>
-<p>「快樂就好」是現代人常見的立場，但在喬丹·彼得森（Jordan Peterson）認為，快樂並不應該成為人生的追求，我們應該行走在混亂與秩序的邊界，尋找道家倡導的陰陽調和，追求遠比快樂偉大的意義。彼得森也藉由《生存的十二條法則》點出一條發現價值與意義的道路，指導我們如何從注重自身開始，遵循傳統的教誨，挖掘出生命中的善良，對抗充斥在人類社會中的怨恨、憎惡與黑暗，並勇敢的承擔起自己的責任。</p>]]></description>
 </item>
 </channel>
 </rss>
