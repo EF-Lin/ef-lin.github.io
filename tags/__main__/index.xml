@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>__Main__ - Tag - EF&#39;s Cave</title>
+        <link>http://localhost:1313/tags/__main__/</link>
+        <description>__Main__ - Tag - EF&#39;s Cave</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 31 Oct 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/__main__/" rel="self" type="application/rss+xml" /><item>
+    <title>__main__</title>
+    <link>http://localhost:1313/posts/python/2024-10-31/</link>
+    <pubDate>Thu, 31 Oct 2024 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/python/2024-10-31/</guid>
+    <description><![CDATA[<p><code>__main__.py</code>是 python 中的一個特殊檔案，它是在利用<code>python</code>指令執行一個壓縮檔或資料夾時首先被運行的檔案。例如以下專案：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">example <span class="p">|</span>__main__.py
+</span></span><span class="line"><span class="cl">		<span class="p">|</span> a.py
+</span></span><span class="line"><span class="cl">        <span class="p">|</span> b.py
+</span></span><span class="line"><span class="cl">        <span class="p">|</span> c.py
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在 cmd 執行<code>python example</code>後，會自動執行<code>python __main__.py</code>。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
+</item>
+</channel>
+</rss>

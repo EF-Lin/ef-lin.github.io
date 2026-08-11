@@ -1,14 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>隨筆 - Category - EF&#39;s Cave</title>
-        <link>https://ef-lin.github.io/categories/%E9%9A%A8%E7%AD%86/</link>
+        <link>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86/</link>
         <description>隨筆 - Category - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/categories/%E9%9A%A8%E7%AD%86/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E9%9A%A8%E7%AD%86/" rel="self" type="application/rss+xml" /><item>
+    <title>因為，我們生在 AI 時代</title>
+    <link>http://localhost:1313/posts/note/2026-08-11/</link>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/note/2026-08-11/</guid>
+    <description><![CDATA[<p>應該用 AI 摘要論文嗎？</p>
+<p>大多數人都會同意，AI 已然成為我們在面對困惑時下意識尋求解答的對象，當我們面對作業、艱澀論文甚至生活中的小問題時，丟給 AI 似乎能完美解決九成以上的問題，另外一成則是換個 AI 模型就能解決。然而，這卻在某方面——隱約地讓我感到不安，的確，人在面對新事物時會本能地感到排斥，畢竟舊有的環境溫暖又舒適，為何要改變呢？但隨著 AI 的發展日新月異，我似乎很難否定其帶來的便利性與真實幫助。</p>]]></description>
+</item>
+<item>
     <title>諾蘭與他的《奧德賽》</title>
-    <link>https://ef-lin.github.io/posts/note/2026-07-20/</link>
+    <link>http://localhost:1313/posts/note/2026-07-20/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/note/2026-07-20/</guid>
+    <guid>http://localhost:1313/posts/note/2026-07-20/</guid>
     <description><![CDATA[<div class="details admonition warning open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>劇透警告<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
@@ -21,12 +30,21 @@
 </item>
 <item>
     <title>選擇你的幻神——韋伯〈學術作為一種志業〉</title>
-    <link>https://ef-lin.github.io/posts/note/2026-02-14/</link>
+    <link>http://localhost:1313/posts/note/2026-02-14/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/note/2026-02-14/</guid>
+    <guid>http://localhost:1313/posts/note/2026-02-14/</guid>
     <description><![CDATA[<h2 id="神殞">神殞</h2>
 <p>從希臘文明開始「概念」在西方思想中一直佔據主宰地位，如《理想國》中著名的洞窟寓言，第一個見到象徵「真、善、美」太陽的哲學家會帶領所有久居山洞的子民走出黑暗，迎向光明。承襲此一觀點，基督教認為上帝就是至善的化身，但韋伯所處時代正值普魯士文明的黃金盛世，康德與唯心學派帶來顛覆性的哲學革命，自然科學蓬勃發展、社會科學萌芽。專業化學術體制的建立逐漸推動基督信仰變革。</p>]]></description>
+</item>
+<item>
+    <title>悲慘世界音樂劇</title>
+    <link>http://localhost:1313/posts/note/2025-07-17/</link>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/note/2025-07-17/</guid>
+    <description><![CDATA[<p>《悲慘世界》（Les Misérables），一部人性在音符間縱橫跳躍的鉅作。</p>
+<p>我第一次看《悲慘世界》的電影是在國中，那時的重點放在法國大革命身上，乏善可陳也並未過多剖析，這次難得有機會買到非常便宜的音樂劇青年席，十分震撼，完全值回票價，也讓我有了重新思考這部作品的機會。可惜的是事前沒有多下功夫研究音樂劇背後的故事和閱讀完小說&hellip;&hellip;所以在很多地方沒辦法看懂。</p>]]></description>
 </item>
 </channel>
 </rss>

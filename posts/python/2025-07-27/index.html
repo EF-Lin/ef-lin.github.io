@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>python專案架構 - EF&#39;s Cave</title><meta name="Description" content="This is a website telling stories"><meta property="og:url" content="https://ef-lin.github.io/posts/python/2025-07-27/">
+        <title>python專案架構 - EF&#39;s Cave</title><meta name="Description" content="This is a website telling stories"><meta property="og:url" content="http://localhost:1313/posts/python/2025-07-27/">
   <meta property="og:site_name" content="EF&#39;s Cave">
   <meta property="og:title" content="python專案架構">
-  <meta property="og:description" content="venv 創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的.venv資料夾中。
-1 python -m venv .venv 啟動虛擬環境：
-1 2 3 4 5 # powershell .venv\Scripts\Activate.ps1 # cmd .venv\Scripts\activate.bat requirements 生成requirements.txt：">
+  <meta property="og:description" content="venv 創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的.venv資料夾中。 1 python -m venv .venv 啟動虛擬環境： 1 2 3 4 5 # powershell .venv\Scripts\Activate.ps1 # cmd .venv\Scripts\activate.bat requirements 生成requirements.txt： 1 pip freeze &gt; requirements.txt 安裝： 1 pip install -r requirements.txt requirements.txt最大的問題在於不會分辨library的直接依賴和間接依賴，因此當不使用一個library時，它原本依賴的那些library還是會被留在requirements.txt中。因此現在主流的解決方案是使用pyproject.toml。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-07-27T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-08-24T00:00:00+00:00">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="專案架構">
-    <meta property="article:tag" content="Venv">
-    <meta property="article:tag" content="Pyproject.toml">
-    <meta property="article:tag" content="Uv">
+    <meta property="article:modified_time" content="2026-07-24T00:00:00+00:00">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="python專案架構">
-  <meta name="twitter:description" content="venv 創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的.venv資料夾中。
-1 python -m venv .venv 啟動虛擬環境：
-1 2 3 4 5 # powershell .venv\Scripts\Activate.ps1 # cmd .venv\Scripts\activate.bat requirements 生成requirements.txt：">
+  <meta name="twitter:description" content="venv 創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的.venv資料夾中。 1 python -m venv .venv 啟動虛擬環境： 1 2 3 4 5 # powershell .venv\Scripts\Activate.ps1 # cmd .venv\Scripts\activate.bat requirements 生成requirements.txt： 1 pip freeze &gt; requirements.txt 安裝： 1 pip install -r requirements.txt requirements.txt最大的問題在於不會分辨library的直接依賴和間接依賴，因此當不使用一個library時，它原本依賴的那些library還是會被留在requirements.txt中。因此現在主流的解決方案是使用pyproject.toml。">
 <meta name="application-name" content="EF&#39;s Cave">
 <meta name="apple-mobile-web-app-title" content="EF&#39;s Cave"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ef-lin.github.io/posts/python/2025-07-27/" /><link rel="prev" href="https://ef-lin.github.io/posts/reading/2025-07-08/" /><link rel="next" href="https://ef-lin.github.io/posts/travel/2025-08-10/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><meta name="google-site-verification" content="YwCNaLAhAhz9X2_Gdkn8ZDWys5oCAGYgh7qwfBFdZ9A" /><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/python/2025-07-27/" /><link rel="prev" href="http://localhost:1313/posts/note/2025-07-17/" /><link rel="next" href="http://localhost:1313/posts/travel/2025-08-10/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="YwCNaLAhAhz9X2_Gdkn8ZDWys5oCAGYgh7qwfBFdZ9A" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -39,11 +30,11 @@
         "inLanguage": "zh-tw",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/ef-lin.github.io\/posts\/python\/2025-07-27\/"
-        },"image": ["https:\/\/ef-lin.github.io\/images\/avatar.jpg"],"genre": "posts","keywords": "python, 專案架構, venv, pyproject.toml, uv","wordcount":  477 ,
-        "url": "https:\/\/ef-lin.github.io\/posts\/python\/2025-07-27\/","datePublished": "2025-07-27T00:00:00+00:00","dateModified": "2025-08-24T00:00:00+00:00","publisher": {
+            "@id": "http:\/\/localhost:1313\/posts\/python\/2025-07-27\/"
+        },"image": ["http:\/\/localhost:1313\/images\/avatar.jpg"],"genre": "posts","keywords": "","wordcount":  474 ,
+        "url": "http:\/\/localhost:1313\/posts\/python\/2025-07-27\/","datePublished": "2025-07-27T00:00:00+00:00","dateModified": "2026-07-24T00:00:00+00:00","publisher": {
             "@type": "Organization",
-            "name": "EFLin","logo": "https:\/\/ef-lin.github.io\/images\/avatar.jpg"},"author": {
+            "name": "EFLin","logo": "http:\/\/localhost:1313\/images\/avatar.jpg"},"author": {
                 "@type": "Person",
                 "name": "EFLin"
             },"description": ""
@@ -95,8 +86,8 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">python專案架構</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Python</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-27">2025-07-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;477 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Categories</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-27">2025-07-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;474 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -112,7 +103,9 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="venv">venv</h2>
-<p>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</p>
+<ol>
+<li>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -121,7 +114,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python -m venv .venv
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>啟動虛擬環境：</p>
+</div><ol start="2">
+<li>啟動虛擬環境：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -139,7 +134,9 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="requirements">requirements</h2>
-<p>生成<code>requirements.txt</code>：</p>
+<ol>
+<li>生成<code>requirements.txt</code>：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -148,7 +145,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip freeze &gt; requirements.txt
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>安裝：</p>
+</div><ol start="2">
+<li>安裝：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -159,8 +158,9 @@
 </div>
 </div><p><code>requirements.txt</code>最大的問題在於不會分辨library的直接依賴和間接依賴，因此當不使用一個library時，它原本依賴的那些library還是會被留在<code>requirements.txt</code>中。因此現在主流的解決方案是使用<code>pyproject.toml</code>。</p>
 <h2 id="pyproject">pyproject</h2>
-<p>在專案中新增一個叫做<code>pyproject.toml</code>的檔案。</p>
-<p>範例：</p>
+<ol>
+<li>在專案中新增一個叫做<code>pyproject.toml</code>的檔案。</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -187,7 +187,9 @@
 </span></span><span class="line"><span class="cl"><span class="p">]</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>安裝：</p>
+</div><ol start="2">
+<li>安裝：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -198,7 +200,9 @@
 </div>
 </div><h2 id="uv">uv</h2>
 <p><a href="https://github.com/astral-sh/uv" target="_blank" rel="noopener noreffer ">uv</a>是<code>venv</code>、<code>pyproject.toml</code>與開發者間的橋樑，提供了一個方便、整合的解決方案。</p>
-<p>安裝uv：</p>
+<ol>
+<li>安裝uv：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -207,8 +211,14 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">powershell -ExecutionPolicy ByPass -c <span class="s2">&#34;irm https://astral.sh/uv/install.ps1 | iex&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>創建<a href="#pyproject" rel="">pyproject.toml</a>。</p>
-<p>新增library：</p>
+</div><ol start="2">
+<li>
+<p>創建 <a href="2025-07-27-python%e5%b0%88%e6%a1%88%e6%9e%b6%e6%a7%8b.md#pyproject" rel="">pyproject.toml</a>。</p>
+</li>
+<li>
+<p>新增 library：</p>
+</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -217,7 +227,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">uv add bs4
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>安裝（記得保留<code>uv.lock</code>）：</p>
+</div><ol start="4">
+<li>安裝（記得保留<code>uv.lock</code>）：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -226,7 +238,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">uv sync
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Run：</p>
+</div><ol start="5">
+<li>Run，uv會自動進入對應的虛擬環境並執行。</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -235,8 +249,7 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">uv run main.py
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>uv會自動進入對應的虛擬環境並執行。</p>
-<h2 id="references">References</h2>
+</div><h2 id="references">References</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=jd1aRE5pJWc" target="_blank" rel="noopener noreffer ">从pip到uv：一口气梳理现代Python项目管理全流程！</a></li>
 <li><a href="https://packaging.python.org/en/latest/guides/writing-pyproject-toml/" target="_blank" rel="noopener noreffer ">Writing your pyproject.toml</a></li>
@@ -245,7 +258,7 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2025-08-24</span>
+                <span>Updated on 2026-07-24</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -256,13 +269,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/%E5%B0%88%E6%A1%88%E6%9E%B6%E6%A7%8B/">專案架構</a>,&nbsp;<a href="/tags/venv/">Venv</a>,&nbsp;<a href="/tags/pyproject.toml/">Pyproject.toml</a>,&nbsp;<a href="/tags/uv/">Uv</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/">Tags</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/reading/2025-07-08/" class="prev" rel="prev" title="鐵約翰：一本關於男性啟蒙的書"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>鐵約翰：一本關於男性啟蒙的書</a>
+    <div class="post-nav"><a href="/posts/note/2025-07-17/" class="prev" rel="prev" title="悲慘世界音樂劇"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>悲慘世界音樂劇</a>
             <a href="/posts/travel/2025-08-10/" class="next" rel="next" title="新加坡遊記">新加坡遊記<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
@@ -276,8 +289,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-ZXYXNZN1CH', { 'anonymize_ip': true });
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-ZXYXNZN1CH" async></script></body>
+        </div><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

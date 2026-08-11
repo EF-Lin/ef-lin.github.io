@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>AI - Tag - EF&#39;s Cave</title>
+        <link>http://localhost:1313/tags/ai/</link>
+        <description>AI - Tag - EF&#39;s Cave</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/" rel="self" type="application/rss+xml" /><item>
+    <title>因為，我們生在 AI 時代</title>
+    <link>http://localhost:1313/posts/note/2026-08-11/</link>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/note/2026-08-11/</guid>
+    <description><![CDATA[<p>應該用 AI 摘要論文嗎？</p>
+<p>大多數人都會同意，AI 已然成為我們在面對困惑時下意識尋求解答的對象，當我們面對作業、艱澀論文甚至生活中的小問題時，丟給 AI 似乎能完美解決九成以上的問題，另外一成則是換個 AI 模型就能解決。然而，這卻在某方面——隱約地讓我感到不安，的確，人在面對新事物時會本能地感到排斥，畢竟舊有的環境溫暖又舒適，為何要改變呢？但隨著 AI 的發展日新月異，我似乎很難否定其帶來的便利性與真實幫助。</p>]]></description>
+</item>
+</channel>
+</rss>

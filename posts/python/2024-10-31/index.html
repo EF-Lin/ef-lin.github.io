@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>__main__ - EF&#39;s Cave</title><meta name="Description" content="This is a website telling stories"><meta property="og:url" content="http://localhost:1313/posts/python/2024-10-31/">
+  <meta property="og:site_name" content="EF&#39;s Cave">
+  <meta property="og:title" content="__main__">
+  <meta property="og:description" content="__main__.py是 python 中的一個特殊檔案，它是在利用python指令執行一個壓縮檔或資料夾時首先被運行的檔案。例如以下專案：
+1 2 3 4 example |__main__.py | a.py | b.py | c.py 在 cmd 執行python example後，會自動執行python __main__.py。1">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-08-11T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="語法">
+    <meta property="article:tag" content="__Main__">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="__main__">
+  <meta name="twitter:description" content="__main__.py是 python 中的一個特殊檔案，它是在利用python指令執行一個壓縮檔或資料夾時首先被運行的檔案。例如以下專案：
+1 2 3 4 example |__main__.py | a.py | b.py | c.py 在 cmd 執行python example後，會自動執行python __main__.py。1">
+<meta name="application-name" content="EF&#39;s Cave">
+<meta name="apple-mobile-web-app-title" content="EF&#39;s Cave"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/python/2024-10-31/" /><link rel="prev" href="http://localhost:1313/posts/python/2024-06-13/" /><link rel="next" href="http://localhost:1313/posts/reading/2025-05-13/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="YwCNaLAhAhz9X2_Gdkn8ZDWys5oCAGYgh7qwfBFdZ9A" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "__main__",
+        "inLanguage": "zh-tw",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/python\/2024-10-31\/"
+        },"image": ["http:\/\/localhost:1313\/images\/avatar.jpg"],"genre": "posts","keywords": "python, 語法, __main__","wordcount":  315 ,
+        "url": "http:\/\/localhost:1313\/posts\/python\/2024-10-31\/","datePublished": "2024-10-31T00:00:00+00:00","dateModified": "2026-08-11T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "EFLin","logo": "http:\/\/localhost:1313\/images\/avatar.jpg"},"author": {
+                "@type": "Person",
+                "name": "EFLin"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="EF&#39;s Cave"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/favicon.svg"
+        data-srcset="/favicon.svg, /favicon.svg 1.5x, /favicon.svg 2x"
+        data-sizes="auto"
+        alt="/favicon.svg"
+        title="/favicon.svg" /><span class="header-title-pre">  </span>EF&#39;s Cave</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="所有文章"> 所有文章 </a><a class="menu-item" href="/tags/" title="標籤"> 標籤 </a><a class="menu-item" href="/categories/" title="分類"> 分類 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="EF&#39;s Cave"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/favicon.svg"
+        data-srcset="/favicon.svg, /favicon.svg 1.5x, /favicon.svg 2x"
+        data-sizes="auto"
+        alt="/favicon.svg"
+        title="/favicon.svg" /><span class="header-title-pre">  </span>EF&#39;s Cave</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="所有文章">所有文章</a><a class="menu-item" href="/tags/" title="標籤">標籤</a><a class="menu-item" href="/categories/" title="分類">分類</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">__main__</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EFLin</a></span>&nbsp;<span class="post-category">included in <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Python</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-10-31">2024-10-31</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;315 words&nbsp;<i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><code>__main__.py</code>是 python 中的一個特殊檔案，它是在利用<code>python</code>指令執行一個壓縮檔或資料夾時首先被運行的檔案。例如以下專案：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">example <span class="p">|</span>__main__.py
+</span></span><span class="line"><span class="cl">		<span class="p">|</span> a.py
+</span></span><span class="line"><span class="cl">        <span class="p">|</span> b.py
+</span></span><span class="line"><span class="cl">        <span class="p">|</span> c.py
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在 cmd 執行<code>python example</code>後，會自動執行<code>python __main__.py</code>。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>另外，在這段常見的程式碼中：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># &gt;&gt;&gt;__main__</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>檔案的<code>__name__</code>之所以會是<code>__main__</code>，就是因為 python 第一個執行的會是<code>__main__</code>這隻程式，因此在執行單一<code>.py</code>檔時，名稱才會被電腦分配為<code>__main__</code>。同時，由於 python 在 import 檔案時會先執行一遍該檔案，這麼做也是為了避免在 import 時意外執行某些不該執行的程式。<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://stackoverflow.com/questions/4042905/what-is-main-py" target="_blank" rel="noopener noreffer ">What is <strong>main</strong>.py?</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://datasciocean.tech/python-tutorial/python-if-name-equal-main-explain/" target="_blank" rel="noopener noreffer ">Python 中 if <strong>name</strong> == “<strong>main</strong>” 有什麼用處</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-08-11</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/%E8%AA%9E%E6%B3%95/">語法</a>,&nbsp;<a href="/tags/__main__/">__Main__</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/python/2024-06-13/" class="prev" rel="prev" title="裝飾器(Decorator)"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>裝飾器(Decorator)</a>
+            <a href="/posts/reading/2025-05-13/" class="next" rel="next" title="美麗新世界">美麗新世界<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「戰爭即和平，無知即力量，自由即奴役」</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">EFLin</a></span>&nbsp;|&nbsp;<span class="license"><a rel='license external nofollow noopener noreffer' href='https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant' target='_blank'>CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

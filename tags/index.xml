@@ -1,166 +1,166 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - EF&#39;s Cave</title>
-        <link>https://ef-lin.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>AI</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/tags/ai/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>古希臘</title>
-    <link>https://ef-lin.github.io/tags/%E5%8F%A4%E5%B8%8C%E8%87%98/</link>
+    <link>http://localhost:1313/tags/%E5%8F%A4%E5%B8%8C%E8%87%98/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%8F%A4%E5%B8%8C%E8%87%98/</guid>
+    <guid>http://localhost:1313/tags/%E5%8F%A4%E5%B8%8C%E8%87%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>史詩</title>
-    <link>https://ef-lin.github.io/tags/%E5%8F%B2%E8%A9%A9/</link>
+    <link>http://localhost:1313/tags/%E5%8F%B2%E8%A9%A9/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%8F%B2%E8%A9%A9/</guid>
+    <guid>http://localhost:1313/tags/%E5%8F%B2%E8%A9%A9/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>奧德賽</title>
-    <link>https://ef-lin.github.io/tags/%E5%A5%A7%E5%BE%B7%E8%B3%BD/</link>
+    <link>http://localhost:1313/tags/%E5%A5%A7%E5%BE%B7%E8%B3%BD/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%A5%A7%E5%BE%B7%E8%B3%BD/</guid>
+    <guid>http://localhost:1313/tags/%E5%A5%A7%E5%BE%B7%E8%B3%BD/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>神話</title>
-    <link>https://ef-lin.github.io/tags/%E7%A5%9E%E8%A9%B1/</link>
+    <link>http://localhost:1313/tags/%E7%A5%9E%E8%A9%B1/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E7%A5%9E%E8%A9%B1/</guid>
+    <guid>http://localhost:1313/tags/%E7%A5%9E%E8%A9%B1/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>諾蘭</title>
-    <link>https://ef-lin.github.io/tags/%E8%AB%BE%E8%98%AD/</link>
+    <link>http://localhost:1313/tags/%E8%AB%BE%E8%98%AD/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E8%AB%BE%E8%98%AD/</guid>
+    <guid>http://localhost:1313/tags/%E8%AB%BE%E8%98%AD/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>學術作為一種志業</title>
-    <link>https://ef-lin.github.io/tags/%E5%AD%B8%E8%A1%93%E4%BD%9C%E7%82%BA%E4%B8%80%E7%A8%AE%E5%BF%97%E6%A5%AD/</link>
+    <link>http://localhost:1313/tags/%E5%AD%B8%E8%A1%93%E4%BD%9C%E7%82%BA%E4%B8%80%E7%A8%AE%E5%BF%97%E6%A5%AD/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%AD%B8%E8%A1%93%E4%BD%9C%E7%82%BA%E4%B8%80%E7%A8%AE%E5%BF%97%E6%A5%AD/</guid>
+    <guid>http://localhost:1313/tags/%E5%AD%B8%E8%A1%93%E4%BD%9C%E7%82%BA%E4%B8%80%E7%A8%AE%E5%BF%97%E6%A5%AD/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>尼采</title>
-    <link>https://ef-lin.github.io/tags/%E5%B0%BC%E9%87%87/</link>
+    <link>http://localhost:1313/tags/%E5%B0%BC%E9%87%87/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E5%B0%BC%E9%87%87/</guid>
+    <guid>http://localhost:1313/tags/%E5%B0%BC%E9%87%87/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>韋伯</title>
-    <link>https://ef-lin.github.io/tags/%E9%9F%8B%E4%BC%AF/</link>
+    <link>http://localhost:1313/tags/%E9%9F%8B%E4%BC%AF/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E9%9F%8B%E4%BC%AF/</guid>
+    <guid>http://localhost:1313/tags/%E9%9F%8B%E4%BC%AF/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Pytest</title>
-    <link>https://ef-lin.github.io/tags/pytest/</link>
+    <link>http://localhost:1313/tags/pytest/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/pytest/</guid>
+    <guid>http://localhost:1313/tags/pytest/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Python</title>
-    <link>https://ef-lin.github.io/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/python/</guid>
+    <guid>http://localhost:1313/tags/python/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>柔らかい角</title>
-    <link>https://ef-lin.github.io/tags/%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%A7%92/</link>
+    <link>http://localhost:1313/tags/%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%A7%92/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%A7%92/</guid>
+    <guid>http://localhost:1313/tags/%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%A7%92/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>漆原友紀</title>
-    <link>https://ef-lin.github.io/tags/%E6%BC%86%E5%8E%9F%E5%8F%8B%E7%B4%80/</link>
+    <link>http://localhost:1313/tags/%E6%BC%86%E5%8E%9F%E5%8F%8B%E7%B4%80/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%BC%86%E5%8E%9F%E5%8F%8B%E7%B4%80/</guid>
+    <guid>http://localhost:1313/tags/%E6%BC%86%E5%8E%9F%E5%8F%8B%E7%B4%80/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>蟲師</title>
-    <link>https://ef-lin.github.io/tags/%E8%9F%B2%E5%B8%AB/</link>
+    <link>http://localhost:1313/tags/%E8%9F%B2%E5%B8%AB/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E8%9F%B2%E5%B8%AB/</guid>
+    <guid>http://localhost:1313/tags/%E8%9F%B2%E5%B8%AB/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>瞼の光</title>
-    <link>https://ef-lin.github.io/tags/%E7%9E%BC%E3%81%AE%E5%85%89/</link>
+    <link>http://localhost:1313/tags/%E7%9E%BC%E3%81%AE%E5%85%89/</link>
     <pubDate>Fri, 15 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E7%9E%BC%E3%81%AE%E5%85%89/</guid>
+    <guid>http://localhost:1313/tags/%E7%9E%BC%E3%81%AE%E5%85%89/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>緑の座</title>
-    <link>https://ef-lin.github.io/tags/%E7%B7%91%E3%81%AE%E5%BA%A7/</link>
+    <link>http://localhost:1313/tags/%E7%B7%91%E3%81%AE%E5%BA%A7/</link>
     <pubDate>Mon, 11 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E7%B7%91%E3%81%AE%E5%BA%A7/</guid>
+    <guid>http://localhost:1313/tags/%E7%B7%91%E3%81%AE%E5%BA%A7/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>SG60</title>
-    <link>https://ef-lin.github.io/tags/sg60/</link>
+    <link>http://localhost:1313/tags/sg60/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/sg60/</guid>
+    <guid>http://localhost:1313/tags/sg60/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>新加坡</title>
-    <link>https://ef-lin.github.io/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/</link>
+    <link>http://localhost:1313/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/</guid>
+    <guid>http://localhost:1313/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>旅遊</title>
-    <link>https://ef-lin.github.io/tags/%E6%97%85%E9%81%8A/</link>
+    <link>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%97%85%E9%81%8A/</guid>
+    <guid>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>歷史</title>
-    <link>https://ef-lin.github.io/tags/%E6%AD%B7%E5%8F%B2/</link>
+    <link>http://localhost:1313/tags/%E6%AD%B7%E5%8F%B2/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/%E6%AD%B7%E5%8F%B2/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Pyproject.toml</title>
-    <link>https://ef-lin.github.io/tags/pyproject.toml/</link>
-    <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/tags/pyproject.toml/</guid>
+    <guid>http://localhost:1313/tags/%E6%AD%B7%E5%8F%B2/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

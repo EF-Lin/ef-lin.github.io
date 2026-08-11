@@ -1,70 +1,62 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - EF&#39;s Cave</title>
-        <link>https://ef-lin.github.io/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Categories - Category - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
     <title>隨筆</title>
-    <link>https://ef-lin.github.io/categories/%E9%9A%A8%E7%AD%86/</link>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
+    <link>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86/</link>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E9%9A%A8%E7%AD%86/</guid>
+    <guid>http://localhost:1313/categories/%E9%9A%A8%E7%AD%86/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Python</title>
-    <link>https://ef-lin.github.io/categories/python/</link>
+    <link>http://localhost:1313/categories/python/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/python/</guid>
+    <guid>http://localhost:1313/categories/python/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>蟲師</title>
-    <link>https://ef-lin.github.io/categories/%E8%9F%B2%E5%B8%AB/</link>
+    <link>http://localhost:1313/categories/%E8%9F%B2%E5%B8%AB/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E8%9F%B2%E5%B8%AB/</guid>
+    <guid>http://localhost:1313/categories/%E8%9F%B2%E5%B8%AB/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>遊記</title>
-    <link>https://ef-lin.github.io/categories/%E9%81%8A%E8%A8%98/</link>
+    <link>http://localhost:1313/categories/%E9%81%8A%E8%A8%98/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E9%81%8A%E8%A8%98/</guid>
+    <guid>http://localhost:1313/categories/%E9%81%8A%E8%A8%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>書籍</title>
-    <link>https://ef-lin.github.io/categories/%E6%9B%B8%E7%B1%8D/</link>
+    <title>Reading</title>
+    <link>http://localhost:1313/categories/reading/</link>
     <pubDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E6%9B%B8%E7%B1%8D/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>專題</title>
-    <link>https://ef-lin.github.io/categories/%E5%B0%88%E9%A1%8C/</link>
-    <pubDate>Sun, 31 Mar 2024 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E5%B0%88%E9%A1%8C/</guid>
+    <guid>http://localhost:1313/categories/reading/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>News</title>
-    <link>https://ef-lin.github.io/categories/news/</link>
-    <pubDate>Sat, 22 Apr 2023 00:00:00 &#43;0000</pubDate>
+    <link>http://localhost:1313/categories/news/</link>
+    <pubDate>Sun, 31 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/news/</guid>
+    <guid>http://localhost:1313/categories/news/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>地緣政治</title>
-    <link>https://ef-lin.github.io/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</link>
+    <link>http://localhost:1313/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</link>
     <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</guid>
+    <guid>http://localhost:1313/categories/%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

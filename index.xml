@@ -1,16 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>EF&#39;s Cave</title>
-        <link>https://ef-lin.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>This is a website telling stories</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="https://ef-lin.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>因為，我們生在 AI 時代</title>
+    <link>http://localhost:1313/posts/note/2026-08-11/</link>
+    <pubDate>Tue, 11 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>http://localhost:1313/posts/note/2026-08-11/</guid>
+    <description><![CDATA[<p>應該用 AI 摘要論文嗎？</p>
+<p>大多數人都會同意，AI 已然成為我們在面對困惑時下意識尋求解答的對象，當我們面對作業、艱澀論文甚至生活中的小問題時，丟給 AI 似乎能完美解決九成以上的問題，另外一成則是換個 AI 模型就能解決。然而，這卻在某方面——隱約地讓我感到不安，的確，人在面對新事物時會本能地感到排斥，畢竟舊有的環境溫暖又舒適，為何要改變呢？但隨著 AI 的發展日新月異，我似乎很難否定其帶來的便利性與真實幫助。</p>]]></description>
+</item>
+<item>
     <title>諾蘭與他的《奧德賽》</title>
-    <link>https://ef-lin.github.io/posts/note/2026-07-20/</link>
+    <link>http://localhost:1313/posts/note/2026-07-20/</link>
     <pubDate>Mon, 20 Jul 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/note/2026-07-20/</guid>
+    <guid>http://localhost:1313/posts/note/2026-07-20/</guid>
     <description><![CDATA[<div class="details admonition warning open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i>劇透警告<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
@@ -23,19 +32,19 @@
 </item>
 <item>
     <title>選擇你的幻神——韋伯〈學術作為一種志業〉</title>
-    <link>https://ef-lin.github.io/posts/note/2026-02-14/</link>
+    <link>http://localhost:1313/posts/note/2026-02-14/</link>
     <pubDate>Sat, 14 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/note/2026-02-14/</guid>
+    <guid>http://localhost:1313/posts/note/2026-02-14/</guid>
     <description><![CDATA[<h2 id="神殞">神殞</h2>
 <p>從希臘文明開始「概念」在西方思想中一直佔據主宰地位，如《理想國》中著名的洞窟寓言，第一個見到象徵「真、善、美」太陽的哲學家會帶領所有久居山洞的子民走出黑暗，迎向光明。承襲此一觀點，基督教認為上帝就是至善的化身，但韋伯所處時代正值普魯士文明的黃金盛世，康德與唯心學派帶來顛覆性的哲學革命，自然科學蓬勃發展、社會科學萌芽。專業化學術體制的建立逐漸推動基督信仰變革。</p>]]></description>
 </item>
 <item>
     <title>pytest</title>
-    <link>https://ef-lin.github.io/posts/python/2025-10-16/</link>
+    <link>http://localhost:1313/posts/python/2025-10-16/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python/2025-10-16/</guid>
+    <guid>http://localhost:1313/posts/python/2025-10-16/</guid>
     <description><![CDATA[<p>建立自動化測試流程。</p>
 <h2 id="基本結構">基本結構</h2>
 <p>測試文件以<code>test_</code>開頭，在更複雜的專案中可將整體鏡像放置在<code>tests/</code>資料夾中。</p>
@@ -91,45 +100,47 @@
 </item>
 <item>
     <title>柔らかい角（柔軟的角）</title>
-    <link>https://ef-lin.github.io/posts/mushishi/2025-08-19/</link>
+    <link>http://localhost:1313/posts/mushishi/2025-08-19/</link>
     <pubDate>Tue, 19 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/mushishi/2025-08-19/</guid>
+    <guid>http://localhost:1313/posts/mushishi/2025-08-19/</guid>
     <description><![CDATA[<p>「呍」是一種以聲音為食的蟲，在白雪皚皚掩蓋所有聲音的日子，它會躲入耳蝸中，使人喪失聽力。與之相反的是「阿」，一種以寂靜為食的蟲，它也會使人聽不到聲音，但卻受到放大那些一般人聽不到、由蟲造成的噪音。</p>]]></description>
 </item>
 <item>
     <title>瞼の光（眼臉之光）</title>
-    <link>https://ef-lin.github.io/posts/mushishi/2025-08-15/</link>
+    <link>http://localhost:1313/posts/mushishi/2025-08-15/</link>
     <pubDate>Fri, 15 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/mushishi/2025-08-15/</guid>
+    <guid>http://localhost:1313/posts/mushishi/2025-08-15/</guid>
     <description><![CDATA[<p>傳說人有兩片眼臉，一片能遮擋實體光線，另一片則可以遮擋無形之物，讓我們陷入完全黑暗中，看見流動在世界底下的光芒。許多人早已忘記了閉上第二片眼臉的方法——但這或許是件好事，因為那些親眼目睹流動光芒的人們經常迷失其中，最終受到反噬雙眼壞死。</p>]]></description>
 </item>
 <item>
     <title>緑の座（綠之座）</title>
-    <link>https://ef-lin.github.io/posts/mushishi/2025-08-11/</link>
+    <link>http://localhost:1313/posts/mushishi/2025-08-11/</link>
     <pubDate>Mon, 11 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/mushishi/2025-08-11/</guid>
+    <guid>http://localhost:1313/posts/mushishi/2025-08-11/</guid>
     <description><![CDATA[<p>以人的手掌來比喻的話，大拇指代表植物，四指代表動物，而人類則是位於心臟最遠的中指。順著手指愈往下，生物愈低等，動植物的分界逐漸模糊。若一直追溯到心臟，那裡是最接近生命原體的存在：蟲，或稱為綠物質。蟲的存在與形狀都混濁不清，只能被拒有特殊體質的人看見，那些看不見蟲的人永遠也不能瞭解蟲，「就像無法把對方沒摸過的觸感，原原本本地直接傳遞給對方一樣」。</p>]]></description>
 </item>
 <item>
     <title>新加坡遊記</title>
-    <link>https://ef-lin.github.io/posts/travel/2025-08-10/</link>
+    <link>http://localhost:1313/posts/travel/2025-08-10/</link>
     <pubDate>Sun, 10 Aug 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/travel/2025-08-10/</guid>
+    <guid>http://localhost:1313/posts/travel/2025-08-10/</guid>
     <description><![CDATA[<p>Singapura，努山塔里亞中的獅城。</p>
 <p>新加坡的空氣中飄散著椰香、斑蘭與芋頭的混合氣息。八月正直新加坡夏季，儘管白天通常酷熱難耐，但一場午後雷陣雨會吸走城市熱氣，帶來熱帶雨林的新鮮氣味。新加坡的夜晚十分涼爽，充滿了燈光、食物與歡笑，人們喜歡三三兩兩群聚坐在路邊，一起唱歌、分享美食與聊天。這似乎是東南亞的特殊野餐文化，讓野餐不受到陽光和草地侷限，而是鋼筋水泥中的隨興聚會。異國的旅者能夠穿梭在人群之中，竊取那些無法參與的快樂氣氛。</p>]]></description>
 </item>
 <item>
     <title>python專案架構</title>
-    <link>https://ef-lin.github.io/posts/python/2025-07-27/</link>
+    <link>http://localhost:1313/posts/python/2025-07-27/</link>
     <pubDate>Sun, 27 Jul 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/python/2025-07-27/</guid>
+    <guid>http://localhost:1313/posts/python/2025-07-27/</guid>
     <description><![CDATA[<h2 id="venv">venv</h2>
-<p>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</p>
+<ol>
+<li>創造一個虛擬環境，讓各種庫不影響整台電腦，只存在於這個專案的<code>.venv</code>資料夾中。</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -138,7 +149,9 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python -m venv .venv
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>啟動虛擬環境：</p>
+</div><ol start="2">
+<li>啟動虛擬環境：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -156,25 +169,38 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="requirements">requirements</h2>
-<p>生成<code>requirements.txt</code>：</p>]]></description>
+<ol>
+<li>生成<code>requirements.txt</code>：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip freeze &gt; requirements.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>安裝：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install -r requirements.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>requirements.txt</code>最大的問題在於不會分辨library的直接依賴和間接依賴，因此當不使用一個library時，它原本依賴的那些library還是會被留在<code>requirements.txt</code>中。因此現在主流的解決方案是使用<code>pyproject.toml</code>。</p>]]></description>
 </item>
 <item>
-    <title>鐵約翰：一本關於男性啟蒙的書</title>
-    <link>https://ef-lin.github.io/posts/reading/2025-07-08/</link>
-    <pubDate>Tue, 08 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <title>悲慘世界音樂劇</title>
+    <link>http://localhost:1313/posts/note/2025-07-17/</link>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/reading/2025-07-08/</guid>
-    <description><![CDATA[<blockquote>
-<p>羅伯特·布萊（Robert Bly）認為現代社會中存在大量的男孩、卻很少有男人是由於現代男性缺乏啟蒙所致。因此在《鐵約翰：一本關於男性啟蒙的書》（又譯上帝之肋：一部男人的文化史）中，羅伯特深入討論現代男性困境並從原始主義、神話學、心理學和人類學的角度提出一條屬於男性（有時也適用於女性）的啟蒙道路，教導讀者如何成為男人、戰士和國王。除此之外，羅伯特也闡述了他在人生、挑戰與愛情等重要議題上——與如今主流思想與眾不同——的獨特價值觀。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>]]></description>
-</item>
-<item>
-    <title>沙丘神帝</title>
-    <link>https://ef-lin.github.io/posts/reading/2025-06-17/</link>
-    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>EFLin</author>
-    <guid>https://ef-lin.github.io/posts/reading/2025-06-17/</guid>
-    <description><![CDATA[<blockquote>
-<p>神奇的伊克斯儀器紀錄下雷托·亞崔迪的思想，統整為《失竊的日記》一書並將之隱匿，這既是《沙丘神帝》的開頭也是結尾。當雷托皇帝逝去後，日記便可以向後人揭示揭示雷托神帝真正的目的與智慧，為其平反。神帝曾無數次向古老沙丘星球的吶喊，渴望有人能替他分擔作為黃金之路領路人的重責。《沙丘神帝》是一本沉重的書籍，它不但承接保羅·亞崔迪不敢踏上的道路，更描繪出專屬於先知的千年孤獨。</p>]]></description>
+    <guid>http://localhost:1313/posts/note/2025-07-17/</guid>
+    <description><![CDATA[<p>《悲慘世界》（Les Misérables），一部人性在音符間縱橫跳躍的鉅作。</p>
+<p>我第一次看《悲慘世界》的電影是在國中，那時的重點放在法國大革命身上，乏善可陳也並未過多剖析，這次難得有機會買到非常便宜的音樂劇青年席，十分震撼，完全值回票價，也讓我有了重新思考這部作品的機會。可惜的是事前沒有多下功夫研究音樂劇背後的故事和閱讀完小說&hellip;&hellip;所以在很多地方沒辦法看懂。</p>]]></description>
 </item>
 </channel>
 </rss>
