@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Pytest - Tag - EF&#39;s Cave</title>
-        <link>http://localhost:1313/tags/pytest/</link>
+        <link>https://ef-lin.github.io/tags/pytest/</link>
         <description>Pytest - Tag - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/pytest/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/pytest/" rel="self" type="application/rss+xml" /><item>
     <title>pytest</title>
-    <link>http://localhost:1313/posts/python/2025-10-16/</link>
+    <link>https://ef-lin.github.io/posts/python/2025-10-16/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2025-10-16/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2025-10-16/</guid>
     <description><![CDATA[<p>建立自動化測試流程。</p>
 <h2 id="基本結構">基本結構</h2>
 <p>測試文件以<code>test_</code>開頭，在更複雜的專案中可將整體鏡像放置在<code>tests/</code>資料夾中。</p>

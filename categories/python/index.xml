@@ -1,14 +1,40 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Python - Category - EF&#39;s Cave</title>
-        <link>http://localhost:1313/categories/python/</link>
+        <link>https://ef-lin.github.io/categories/python/</link>
         <description>Python - Category - EF&#39;s Cave</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/python/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/categories/python/" rel="self" type="application/rss+xml" /><item>
+    <title>互相關（cross correlation）</title>
+    <link>https://ef-lin.github.io/posts/python/2026-08-23/</link>
+    <pubDate>Sun, 23 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2026-08-23/</guid>
+    <description><![CDATA[<p>在瞭解卷積（convolution），就可以來談互相關（cross correlation）的概念了。首先，我們知道卷積是一種運算方式，可以把函式 $f$ 與 $g$ 翻轉、相乘並積分，那麼這種運算方式可以告訴我們什麼呢？目前最常見的卷積運算用於機器學習，也就是卷積神經網絡（Convolutional Neural Network，CNN），利用核（Kernel，特徵矩陣）提取出圖片的邊緣、模糊處理等。然而，互相關卻是另外一種運算方式。</p>]]></description>
+</item>
+<item>
+    <title>卷積（convolution）</title>
+    <link>https://ef-lin.github.io/posts/python/2026-08-22/</link>
+    <pubDate>Sat, 22 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2026-08-22/</guid>
+    <description><![CDATA[<p>卷積（convolution），又稱疊積、褶積或旋積，可以將函數 $f$ 與 $g$ 進行運算產生新函數。</p>
+<h2 id="mathematical-definition">Mathematical Definition</h2>
+<p>對於連續（continuous）函數：
+$$
+(f \star g)(t) = \int_{-\infty}^{\infty} f(\tau) g(t - \tau) d\tau
+$$
+對於離散（discrete）函數：
+$$
+(f \star g)[n] = \sum_{m=-\infty}^{\infty} f[m] g[n - m]
+$$
+其中 $t, n$ 稱為移位（displacement）或滯後（lag），若 $t, n=0$ 則 $(f * g)(0)$ 等於$f$與X軸反轉的 $g$ 的相乘積分或相乘加總，可以用一個簡單的 python 展示 $n=0$ 時的離散函數卷積：</p>]]></description>
+</item>
+<item>
     <title>pytest</title>
-    <link>http://localhost:1313/posts/python/2025-10-16/</link>
+    <link>https://ef-lin.github.io/posts/python/2025-10-16/</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2025-10-16/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2025-10-16/</guid>
     <description><![CDATA[<p>建立自動化測試流程。</p>
 <h2 id="基本結構">基本結構</h2>
 <p>測試文件以<code>test_</code>開頭，在更複雜的專案中可將整體鏡像放置在<code>tests/</code>資料夾中。</p>
@@ -64,10 +90,10 @@
 </item>
 <item>
     <title>__main__</title>
-    <link>http://localhost:1313/posts/python/2024-10-31/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-10-31/</link>
     <pubDate>Thu, 31 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2024-10-31/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-10-31/</guid>
     <description><![CDATA[<p><code>__main__.py</code>是 python 中的一個特殊檔案，它是在利用<code>python</code>指令執行一個壓縮檔或資料夾時首先被運行的檔案。例如以下專案：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -87,27 +113,27 @@
 </item>
 <item>
     <title>裝飾器(Decorator)</title>
-    <link>http://localhost:1313/posts/python/2024-06-13/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-13/</link>
     <pubDate>Thu, 13 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2024-06-13/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-13/</guid>
     <description><![CDATA[<p>裝飾器為python的語法糖(syntax candy)，旨在簡化函式之間的相互呼叫，能透過簡單的<code>@</code>就呼叫出事先編寫好的函式。</p>
 <p>使用順序上則是遵循遞迴的(recursive)構造，會先將函式丟入離最近的裝飾器中，再將整體丟入更上層的裝飾器中。</p>]]></description>
 </item>
 <item>
     <title>python基礎語法</title>
-    <link>http://localhost:1313/posts/python/2024-06-07/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-07/</link>
     <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2024-06-07/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-07/</guid>
     <description><![CDATA[本篇文章將簡單介紹python的基礎語法、變數型態、運算子與特性]]></description>
 </item>
 <item>
     <title>全域變數與區域變數</title>
-    <link>http://localhost:1313/posts/python/2024-06-07-2/</link>
+    <link>https://ef-lin.github.io/posts/python/2024-06-07-2/</link>
     <pubDate>Fri, 07 Jun 2024 00:00:00 &#43;0000</pubDate>
     <author>EFLin</author>
-    <guid>http://localhost:1313/posts/python/2024-06-07-2/</guid>
+    <guid>https://ef-lin.github.io/posts/python/2024-06-07-2/</guid>
     <description><![CDATA[<h2 id="全域變數">全域變數</h2>
 <p>一般情況下，全域變數（Global Variable）可被function、class獲取，但不可修改。</p>
 <div class="highlight"><div class="chroma">

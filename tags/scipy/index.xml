@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Scipy - Tag - EF&#39;s Cave</title>
+        <link>https://ef-lin.github.io/tags/scipy/</link>
+        <description>Scipy - Tag - EF&#39;s Cave</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ef-lin.github.io/tags/scipy/" rel="self" type="application/rss+xml" /><item>
+    <title>互相關（cross correlation）</title>
+    <link>https://ef-lin.github.io/posts/python/2026-08-23/</link>
+    <pubDate>Sun, 23 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2026-08-23/</guid>
+    <description><![CDATA[<p>在瞭解卷積（convolution），就可以來談互相關（cross correlation）的概念了。首先，我們知道卷積是一種運算方式，可以把函式 $f$ 與 $g$ 翻轉、相乘並積分，那麼這種運算方式可以告訴我們什麼呢？目前最常見的卷積運算用於機器學習，也就是卷積神經網絡（Convolutional Neural Network，CNN），利用核（Kernel，特徵矩陣）提取出圖片的邊緣、模糊處理等。然而，互相關卻是另外一種運算方式。</p>]]></description>
+</item>
+<item>
+    <title>卷積（convolution）</title>
+    <link>https://ef-lin.github.io/posts/python/2026-08-22/</link>
+    <pubDate>Sat, 22 Aug 2026 00:00:00 &#43;0000</pubDate>
+    <author>EFLin</author>
+    <guid>https://ef-lin.github.io/posts/python/2026-08-22/</guid>
+    <description><![CDATA[<p>卷積（convolution），又稱疊積、褶積或旋積，可以將函數 $f$ 與 $g$ 進行運算產生新函數。</p>
+<h2 id="mathematical-definition">Mathematical Definition</h2>
+<p>對於連續（continuous）函數：
+$$
+(f \star g)(t) = \int_{-\infty}^{\infty} f(\tau) g(t - \tau) d\tau
+$$
+對於離散（discrete）函數：
+$$
+(f \star g)[n] = \sum_{m=-\infty}^{\infty} f[m] g[n - m]
+$$
+其中 $t, n$ 稱為移位（displacement）或滯後（lag），若 $t, n=0$ 則 $(f * g)(0)$ 等於$f$與X軸反轉的 $g$ 的相乘積分或相乘加總，可以用一個簡單的 python 展示 $n=0$ 時的離散函數卷積：</p>]]></description>
+</item>
+</channel>
+</rss>
